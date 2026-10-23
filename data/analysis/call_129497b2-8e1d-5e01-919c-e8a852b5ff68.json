@@ -1,0 +1,26 @@
+{
+  "source_type": "call",
+  "source_id": "129497b2-8e1d-5e01-919c-e8a852b5ff68",
+  "record_ref": "C08",
+  "source_revision": 1,
+  "output_kind": "prospect_follow_up",
+  "what_happened": "The contact requests a proposal and offers an email for a colleague who handles people operations and frontline processes.",
+  "why_it_matters": "A route to a potentially relevant colleague exists, but the caller has not confirmed that colleague's authority or active project.",
+  "what_evidence_does_not_establish": "It does not establish the colleague's name, decision role, buying timeline, or a confirmed product gap.",
+  "next_step": "Send the requested proposal to the supplied address, clearly noting the conversation, then wait for a response.",
+  "owner": null,
+  "review_required": false,
+  "evidence": [
+    {
+      "quote": "If you send him a proposal and say you spoke with me, he can take a look.",
+      "point": "The contact offers a colleague as the next review path."
+    }
+  ],
+  "route_rules": [
+    {
+      "route": "Prospect follow-up",
+      "trigger": "Could you send a proposal there?",
+      "reason": "The contact requests a proposal by email and suggests a colleague review it."
+    }
+  ]
+}

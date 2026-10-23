@@ -1,0 +1,35 @@
+{
+  "source_type": "call",
+  "source_id": "b747f592-810e-583c-9b81-8db5ab035806",
+  "record_ref": "C10",
+  "source_revision": 1,
+  "output_kind": "contact_boundary_review",
+  "what_happened": "The contact says he no longer works for the named company, accepts information only, and declines a scheduled follow-up call.",
+  "why_it_matters": "The stored follow_up outcome conflicts with the contact's explicit statement that he will initiate any further discussion.",
+  "what_evidence_does_not_establish": "It does not establish an account relationship at the contact's new employer or permission for another call.",
+  "next_step": "If the already-requested information is sent, do not schedule or place another call unless the contact re-engages.",
+  "owner": null,
+  "review_required": true,
+  "evidence": [
+    {
+      "quote": "I don't work there anymore.",
+      "point": "The contact is no longer affiliated with the named company."
+    },
+    {
+      "quote": "No. I said I will contact you if there is anything to discuss.",
+      "point": "The contact declines a follow-up call."
+    }
+  ],
+  "route_rules": [
+    {
+      "route": "Sales coaching",
+      "trigger": "No. I said I will contact you if there is anything to discuss.",
+      "reason": "The contact explicitly declines a follow-up call and asks to initiate any future discussion."
+    },
+    {
+      "route": "Needs human",
+      "trigger": "I don't work there anymore.",
+      "reason": "The named company association is no longer valid and the new employer is not identified."
+    }
+  ]
+}

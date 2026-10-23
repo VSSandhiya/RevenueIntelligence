@@ -1,0 +1,31 @@
+{
+  "source_type": "call",
+  "source_id": "4b870624-8aad-5315-a60e-0db95981cf99",
+  "record_ref": "C02",
+  "source_revision": 1,
+  "output_kind": "call_classification_review",
+  "what_happened": "A receptionist checked for Leela and transferred the caller to voicemail; no substantive exchange with Leela is present.",
+  "why_it_matters": "The source marks this as a conversation, but the supplied words show a gatekeeper interaction and a voicemail transfer.",
+  "what_evidence_does_not_establish": "It does not establish that Leela heard a message, spoke with the caller, or has sales interest.",
+  "next_step": "Review the source conversation label; do not count this text as a buyer conversation.",
+  "owner": null,
+  "review_required": true,
+  "evidence": [
+    {
+      "quote": "Her voicemail would be fine, thank you.",
+      "point": "The caller accepts a transfer to voicemail."
+    }
+  ],
+  "route_rules": [
+    {
+      "route": "Sales coaching",
+      "trigger": "Her voicemail would be fine, thank you.",
+      "reason": "The only supplied exchange is with a receptionist and ends in a voicemail transfer."
+    },
+    {
+      "route": "Needs human",
+      "trigger": "Leela? Let me check whether she is around.",
+      "reason": "The source labels a conversation, while the transcript only establishes a gatekeeper transfer; check the classification."
+    }
+  ]
+}

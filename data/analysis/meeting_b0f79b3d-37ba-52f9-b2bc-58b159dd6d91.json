@@ -1,0 +1,55 @@
+{
+  "source_type": "meeting",
+  "source_id": "b0f79b3d-37ba-52f9-b2bc-58b159dd6d91",
+  "record_ref": "M04",
+  "source_revision": 1,
+  "output_kind": "customer_retention_and_product_review",
+  "what_happened": "Cedarwave is planning a card migration but says moving from prepaid to credit is the main issue; a bank-issued credit-card feed and accounting path remain unconfirmed.",
+  "why_it_matters": "The proposed replacement is still prepaid, while the customer's stated need is credit. The bank feed is delayed until settlement and does not expose available credit.",
+  "what_evidence_does_not_establish": "It does not establish eligibility for the bank feed, accounting reconciliation feasibility, a decision to migrate, or acceptance of prepaid as a long-term fit.",
+  "next_step": "Confirm already-issued-card eligibility and accounting reconciliation with the programme team; present the prepaid and bank-credit options as distinct, then let Cedarwave decide internally.",
+  "owner": "Team member A",
+  "review_required": true,
+  "evidence": [
+    {
+      "turn_number": 11,
+      "quote": "moving from prepaid to credit is the main issue for us",
+      "point": "Customer states the central retention risk."
+    },
+    {
+      "turn_number": 21,
+      "quote": "I need the team to confirm feasibility for your bank-card transactions",
+      "point": "Accounting feasibility remains unresolved."
+    },
+    {
+      "turn_number": 25,
+      "quote": "the available limit would not be shown here",
+      "point": "The feed does not meet the available-credit visibility need."
+    },
+    {
+      "turn_number": 31,
+      "quote": "We can arrange a session to guide you through it",
+      "point": "Separate department-move support issue."
+    }
+  ],
+  "route_rules": [
+    {
+      "route": "Customer success / retention risk",
+      "turn_number": 11,
+      "trigger": "moving from prepaid to credit is the main issue for us",
+      "reason": "The current product direction does not satisfy the customer's stated credit requirement."
+    },
+    {
+      "route": "Product or support issue",
+      "turn_number": 21,
+      "trigger": "I need the team to confirm feasibility for your bank-card transactions",
+      "reason": "Accounting sync for the bank-card feed is explicitly unresolved."
+    },
+    {
+      "route": "Needs human",
+      "turn_number": 23,
+      "trigger": "I cannot confirm the existing-card eligibility on this call.",
+      "reason": "Eligibility and accounting answers require confirmation before the migration can be represented as viable."
+    }
+  ]
+}

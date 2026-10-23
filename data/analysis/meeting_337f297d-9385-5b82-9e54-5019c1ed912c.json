@@ -1,0 +1,38 @@
+{
+  "source_type": "meeting",
+  "source_id": "337f297d-9385-5b82-9e54-5019c1ed912c",
+  "record_ref": "M10",
+  "source_revision": 1,
+  "output_kind": "internal_billing_training_note",
+  "what_happened": "An internal training session explains invoice timing, billing exceptions, retry behavior, account freezes and manual recovery steps.",
+  "why_it_matters": "Invoice date, due date and collection timing differ; a zero-value invoice or later top-up does not alone establish a failed or recovered payment.",
+  "what_evidence_does_not_establish": "It does not establish a customer billing incident, a specific account's current state, or that the trainee received back-office access.",
+  "next_step": "Use the session as internal reference material and request the separate back-office access for the next training session.",
+  "owner": "Team member A",
+  "review_required": false,
+  "evidence": [
+    {
+      "turn_number": 8,
+      "quote": "The displayed due date and the allowed collection period are not always the same thing.",
+      "point": "Billing dates need contextual interpretation."
+    },
+    {
+      "turn_number": 17,
+      "quote": "If it still fails, payments and cards can be blocked",
+      "point": "Training describes the retry escalation."
+    },
+    {
+      "turn_number": 20,
+      "quote": "I will request the back-office access separately for the next training session.",
+      "point": "The stated internal next step."
+    }
+  ],
+  "route_rules": [
+    {
+      "route": "Internal (no sales analysis)",
+      "turn_number": 5,
+      "trigger": "That is a different application.",
+      "reason": "The meeting is an internal operations/billing training walkthrough, not a sales interaction."
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "source_type": "call",
+  "source_id": "75a6b94f-7717-5cfb-9e41-0acc94415e17",
+  "record_ref": "C05",
+  "source_revision": 1,
+  "output_kind": "sales_call_review",
+  "what_happened": "The contact says existing systems already cover payments and approvals, but asks to receive a presentation for possible future consideration.",
+  "why_it_matters": "A requested document is a limited nurture step, not evidence of a current buying project.",
+  "what_evidence_does_not_establish": "It does not establish a gap, a switch timeline, or approval to schedule another call.",
+  "next_step": "Send the requested presentation and wait; do not create a timed follow-up without permission.",
+  "owner": null,
+  "review_required": false,
+  "evidence": [
+    {
+      "quote": "If we ever decide to change the providers we already have, we could consider it then.",
+      "point": "Interest is conditional and untimed."
+    }
+  ],
+  "route_rules": [
+    {
+      "route": "Prospect follow-up",
+      "trigger": "What I suggest is that you send me your presentation.",
+      "reason": "The contact explicitly requests a presentation."
+    },
+    {
+      "route": "Sales coaching",
+      "trigger": "We have that too.",
+      "reason": "The contact twice says the offered capabilities are already covered; qualify a specific gap before extending the pitch."
+    }
+  ]
+}

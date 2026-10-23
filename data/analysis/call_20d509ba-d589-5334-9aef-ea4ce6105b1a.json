@@ -1,0 +1,35 @@
+{
+  "source_type": "call",
+  "source_id": "20d509ba-d589-5334-9aef-ea4ce6105b1a",
+  "record_ref": "C03",
+  "source_revision": 1,
+  "output_kind": "deal_next_steps",
+  "what_happened": "A prior API-access discussion resurfaced; the contact recalled budget uncertainty and agreed to email and a Monday follow-up despite poor audio.",
+  "why_it_matters": "There is a concrete, consented next step, but the need and budget remain unconfirmed.",
+  "what_evidence_does_not_establish": "It does not establish purchase intent, an approved budget, or that the earlier requirement is still active.",
+  "next_step": "Email the developer-access and event-notification information, then try the agreed Monday call when the contact expects better reception.",
+  "owner": "Kiran",
+  "review_required": false,
+  "evidence": [
+    {
+      "quote": "We did ask about some developer functionality, but it isn't essential enough for us to spend much on it.",
+      "point": "Need and price sensitivity are still uncertain."
+    },
+    {
+      "quote": "I'll also try you on Monday.",
+      "point": "The caller states the follow-up commitment."
+    }
+  ],
+  "route_rules": [
+    {
+      "route": "Prospect follow-up",
+      "trigger": "I'll also try you on Monday.",
+      "reason": "The contact agrees to an email and a Monday follow-up."
+    },
+    {
+      "route": "Sales coaching",
+      "trigger": "I'm struggling to catch what you're saying.",
+      "reason": "The call has a repeated audio problem; the agreed email is the clearer next channel."
+    }
+  ]
+}

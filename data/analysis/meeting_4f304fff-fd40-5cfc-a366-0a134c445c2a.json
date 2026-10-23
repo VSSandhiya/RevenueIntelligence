@@ -1,0 +1,55 @@
+{
+  "source_type": "meeting",
+  "source_id": "4f304fff-fd40-5cfc-a366-0a134c445c2a",
+  "record_ref": "M07",
+  "source_revision": 2,
+  "output_kind": "customer_support_incident_review",
+  "what_happened": "Willowfield demonstrates three unresolved product behaviors: saved descriptions do not refresh, a direct invoice-upload path fails despite a workaround, and payment amounts carry over between items.",
+  "why_it_matters": "The workaround reduces immediate friction but does not resolve the direct upload issue; the other two behaviors were separately escalated and lack a confirmed resolution in this transcript.",
+  "what_evidence_does_not_establish": "It does not establish root cause, an engineering fix, final payment status, or that the workaround is acceptable long term.",
+  "next_step": "Track the three behaviors as separate issues, confirm an owner and resolution with the product/support team, and update Willowfield after verification.",
+  "owner": "Team member A",
+  "review_required": true,
+  "evidence": [
+    {
+      "turn_number": 7,
+      "quote": "I have captured screenshots of that behaviour. I will get it checked today. I do not have an explanation for it yet.",
+      "point": "Description update remains unexplained."
+    },
+    {
+      "turn_number": 14,
+      "quote": "It is still extra steps compared with doing it directly when recreating the payment.",
+      "point": "The upload workaround adds steps."
+    },
+    {
+      "turn_number": 19,
+      "quote": "I expect an update or resolution in an hour or two",
+      "point": "Processing-state issue was not yet confirmed resolved."
+    },
+    {
+      "turn_number": 25,
+      "quote": "I will report that separately as well",
+      "point": "Stale amount behavior is a separate reported issue."
+    }
+  ],
+  "route_rules": [
+    {
+      "route": "Product or support issue",
+      "turn_number": 4,
+      "trigger": "Yes, it is still the old description.",
+      "reason": "The customer reproduces a saved-description display failure."
+    },
+    {
+      "route": "Customer success / retention risk",
+      "turn_number": 14,
+      "trigger": "It is still extra steps compared with doing it directly",
+      "reason": "The workaround leaves ongoing customer friction and the direct path unresolved."
+    },
+    {
+      "route": "Needs human",
+      "turn_number": 19,
+      "trigger": "I expect an update or resolution in an hour or two",
+      "reason": "A human owner must verify the payment processing status and follow-up."
+    }
+  ]
+}

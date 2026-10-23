@@ -1,0 +1,50 @@
+{
+  "source_type": "meeting",
+  "source_id": "4b5b9192-f3fc-505a-8e77-4d2ffaa54594",
+  "record_ref": "M09",
+  "source_revision": 1,
+  "output_kind": "customer_success_access_review",
+  "what_happened": "Brookmint's reset invitation expires, account access and shared-mailbox permissions remain unsettled, and Northkite has separate accounting and receipt questions.",
+  "why_it_matters": "The customer rejects shared administrator access that depends on trust, while the fresh invitation also fails; these are distinct access and workflow risks.",
+  "what_evidence_does_not_establish": "It does not establish that Brookmint access was restored, that the mailbox permissions changed, or that the missing receipt was uploaded.",
+  "next_step": "Verify a working Brookmint invitation and a least-privilege account setup; separately follow up on the receipt/training questions without joining the two company accounts.",
+  "owner": "Team member A",
+  "review_required": true,
+  "evidence": [
+    {
+      "turn_number": 21,
+      "quote": "It says the token has expired. This is the fresh message we just received.",
+      "point": "The replacement login link also fails."
+    },
+    {
+      "turn_number": 17,
+      "quote": "I do not want this to depend on trusting someone not to use access that is available.",
+      "point": "Customer rejects trust-only permission controls."
+    },
+    {
+      "turn_number": 26,
+      "quote": "This transaction has no receipt",
+      "point": "Separate transaction evidence issue."
+    }
+  ],
+  "route_rules": [
+    {
+      "route": "Customer success / retention risk",
+      "turn_number": 21,
+      "trigger": "It says the token has expired.",
+      "reason": "The customer still lacks working access to the second company account."
+    },
+    {
+      "route": "Product or support issue",
+      "turn_number": 21,
+      "trigger": "This is the fresh message we just received.",
+      "reason": "A freshly issued reset token is reported expired and needs investigation."
+    },
+    {
+      "route": "Needs human",
+      "turn_number": 17,
+      "trigger": "I do not want this to depend on trusting someone not to use access that is available.",
+      "reason": "Access rights require a human least-privilege decision; a shared mailbox is not a safe substitute."
+    }
+  ]
+}

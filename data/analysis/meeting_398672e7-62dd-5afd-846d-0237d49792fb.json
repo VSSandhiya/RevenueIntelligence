@@ -1,0 +1,44 @@
+{
+  "source_type": "meeting",
+  "source_id": "398672e7-62dd-5afd-846d-0237d49792fb",
+  "record_ref": "M03",
+  "source_revision": 1,
+  "output_kind": "customer_evaluation_next_steps",
+  "what_happened": "Asterloom evaluates prepaid cards for a small initial group while clarifying receipt review, accounting sync, fees and CFO approval.",
+  "why_it_matters": "The customer distinguishes transaction review from reimbursement and wants a controlled pilot before expanding use.",
+  "what_evidence_does_not_establish": "It does not establish final CFO approval, verified monthly spend, or a decision to replace the current expense portal.",
+  "next_step": "Send a written proposal separating the recurring subscription, one-time integration and optional modules; let the customer decide internally before scheduling another call.",
+  "owner": "Team member A",
+  "review_required": false,
+  "evidence": [
+    {
+      "turn_number": 26,
+      "quote": "We need help now, but would start with perhaps four or five employees.",
+      "point": "The customer describes a limited pilot."
+    },
+    {
+      "turn_number": 28,
+      "quote": "Our CFO approves the larger payments. We need to explain the proposal to them; that part is still ahead of us.",
+      "point": "Approval is still pending."
+    },
+    {
+      "turn_number": 36,
+      "quote": "Send the details first. We need time with the CFO and will tell you if another call is needed.",
+      "point": "The customer sets the next step and rejects a pre-scheduled call."
+    }
+  ],
+  "route_rules": [
+    {
+      "route": "Prospect follow-up",
+      "turn_number": 35,
+      "trigger": "I will send the cards proposal and information about the other modules.",
+      "reason": "The team member commits to a written proposal after the evaluation."
+    },
+    {
+      "route": "Sales coaching",
+      "turn_number": 36,
+      "trigger": "We need time with the CFO and will tell you if another call is needed.",
+      "reason": "Respect the customer's request to decide internally before scheduling another call."
+    }
+  ]
+}

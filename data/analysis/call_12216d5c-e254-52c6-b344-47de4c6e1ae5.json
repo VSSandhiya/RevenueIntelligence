@@ -1,0 +1,35 @@
+{
+  "source_type": "call",
+  "source_id": "12216d5c-e254-52c6-b344-47de4c6e1ae5",
+  "record_ref": "C06",
+  "source_revision": 1,
+  "output_kind": "sales_call_review",
+  "what_happened": "The contact says the existing finance system is automated and declines a current need; the spoken caller introduces himself as Ravi.",
+  "why_it_matters": "The source rep_name is Meera, which conflicts with the spoken name, while the contact declines further outreach unless a need arises.",
+  "what_evidence_does_not_establish": "It does not establish which staff member actually made the call or a future buying trigger.",
+  "next_step": "Check the caller identity against the recording source and honor the contact's request not to pursue a current need.",
+  "owner": null,
+  "review_required": true,
+  "evidence": [
+    {
+      "quote": "Ravi here.",
+      "point": "Spoken caller name conflicts with the source rep_name."
+    },
+    {
+      "quote": "If there is something we need from you in future, we can contact you.",
+      "point": "The contact asks to initiate any future need."
+    }
+  ],
+  "route_rules": [
+    {
+      "route": "Sales coaching",
+      "trigger": "If there is something we need from you in future, we can contact you.",
+      "reason": "The contact says the current arrangement is already in place and will initiate if a need arises."
+    },
+    {
+      "route": "Needs human",
+      "trigger": "Ravi here.",
+      "reason": "The spoken caller name conflicts with the source rep_name field Meera."
+    }
+  ]
+}

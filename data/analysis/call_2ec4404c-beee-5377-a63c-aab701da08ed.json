@@ -1,0 +1,26 @@
+{
+  "source_type": "call",
+  "source_id": "2ec4404c-beee-5377-a63c-aab701da08ed",
+  "record_ref": "C01",
+  "source_revision": 1,
+  "output_kind": "sales_call_review",
+  "what_happened": "An unsolicited partnership pitch reached a person who challenged the contact source and declined interest.",
+  "why_it_matters": "The contact explicitly objects to further unsolicited sales pressure; this is a stop signal, not a follow-up opportunity.",
+  "what_evidence_does_not_establish": "It does not establish a prior relationship, permission to contact, or a fit for the product.",
+  "next_step": "Do not make another outbound attempt unless the person independently opts in.",
+  "owner": null,
+  "review_required": false,
+  "evidence": [
+    {
+      "quote": "I didn't ask for this call, and I'm not interested.",
+      "point": "Explicit objection and rejection."
+    }
+  ],
+  "route_rules": [
+    {
+      "route": "Sales coaching",
+      "trigger": "I didn't ask for this call, and I'm not interested.",
+      "reason": "The transcript contains an explicit rejection and a challenge to the unsolicited contact."
+    }
+  ]
+}

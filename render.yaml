@@ -1,0 +1,17 @@
+services:
+  - type: web
+    name: revenue-intelligence-inbox
+    runtime: docker
+    plan: starter
+    healthCheckPath: /api/health
+    disk:
+      name: revenue-inbox-state
+      mountPath: /app/state
+      sizeGB: 1
+    envVars:
+      - key: APP_PASSWORD
+        sync: false
+      - key: REQUIRE_AUTH
+        value: "true"
+      - key: DB_PATH
+        value: /app/state/app.db

@@ -1,0 +1,177 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light">
+  <title>Revenue Intelligence Inbox</title>
+  <link rel="stylesheet" href="/static/styles.css">
+  <script src="/static/app.js" defer></script>
+</head>
+<body>
+  <div class="app-shell">
+    <aside class="rail" aria-label="Primary navigation">
+      <a class="brand" href="#overview" aria-label="Revenue Intelligence Inbox home">
+        <span class="brand-mark">RI</span>
+        <span class="brand-name">Revenue<br>Intelligence</span>
+      </a>
+      <nav class="main-nav">
+        <button class="nav-item is-active" data-view="assistant" aria-label="Today and assistant"><span class="nav-icon" aria-hidden="true">✦</span>Today</button>
+        <button class="nav-item" data-view="inbox" aria-label="All conversations"><span class="nav-icon" aria-hidden="true">≡</span>Conversations</button>
+        <button class="nav-item" data-view="overview" aria-label="Numbers and charts"><span class="nav-icon" aria-hidden="true">◫</span>Numbers</button>
+        <button class="nav-item" data-view="brief" aria-label="Manager brief"><span class="nav-icon" aria-hidden="true">▤</span>Daily note</button>
+      </nav>
+      <div class="rail-note">
+        <span class="status-dot"></span>
+        <span>Private workspace</span>
+      </div>
+      <div class="rail-foot"><span>TODAY · ASIA / KOLKATA</span><time id="rail-today-date" data-current-date></time></div>
+    </aside>
+
+    <main class="main-area">
+      <header class="topbar">
+        <div class="heading-block">
+          <div class="eyebrow">REVENUE OPERATIONS <span class="eyebrow-line"></span> DAILY VIEW</div>
+          <h1 id="page-title">Your conversation assistant</h1>
+          <p class="subhead"><span>Today: <time id="header-today-date" data-current-date></time></span><span class="sample-tag">Activity date: 21 August 2026 · selected records, not a whole-team day</span></p>
+        </div>
+        <div class="top-actions">
+          <button class="button button-quiet" id="add-data-button" title="Import a JSON delivery that follows the data contract">
+            <span aria-hidden="true">＋</span> Add data
+          </button>
+          <input class="visually-hidden" id="add-data-input" type="file" accept=".json,application/json" aria-label="Choose a JSON data delivery">
+          <button class="button button-quiet" id="export-button" title="Rebuild the export folder">
+            <span aria-hidden="true">↧</span> Export
+          </button>
+          <button class="button button-primary" id="demo-button" title="Import both source batches">
+            <span aria-hidden="true">＋</span> Load demo
+          </button>
+          <button class="icon-button" id="reset-button" title="Reset the local database" aria-label="Reset local database">↺</button>
+        </div>
+      </header>
+
+      <section class="filter-bar" aria-label="Dashboard filters">
+        <label class="filter-field"><span>Person</span><select id="person-filter"><option value="">All people</option></select></label>
+        <label class="filter-field"><span>Source</span><select id="type-filter"><option value="">Calls + meetings</option><option value="call">Calls</option><option value="meeting">Meetings</option></select></label>
+        <button class="filter-reset" id="clear-filters">Clear filters</button>
+        <div class="filter-count" id="filter-count">Loading selected records…</div>
+      </section>
+      <details class="replay-tools">
+        <summary>Replay tools</summary>
+        <div class="replay-tool-row">
+          <button class="button button-quiet" id="import-initial-button">Import 01 initial</button>
+          <button class="button button-quiet" id="import-update-button">Import 02 update</button>
+          <span id="replay-result" class="inbox-meta">Import actions are logged by source identity.</span>
+        </div>
+      </details>
+
+      <div class="notice" id="notice" role="status" aria-live="polite" hidden></div>
+      <div class="error-state" id="error-state" hidden></div>
+
+      <section class="view-panel is-visible" id="assistant-view" aria-labelledby="assistant-heading">
+        <div class="assistant-intro">
+          <div class="eyebrow">YOUR DAY, IN PLAIN LANGUAGE</div>
+          <h2 id="assistant-heading">What should I look at first?</h2>
+          <p>I checked the selected conversations and their source evidence. Ask a question, or start with one of these.</p>
+        </div>
+        <div class="assistant-layout">
+          <section class="assistant-workspace" aria-label="Ask the conversation assistant">
+            <div class="assistant-trust"><span class="status-dot"></span><span>Private, evidence-linked help</span><span class="assistant-mode" id="assistant-mode">Checking this day's records</span></div>
+            <div class="assistant-messages" id="assistant-messages" aria-live="polite" aria-relevant="additions text">
+              <div class="assistant-welcome"><strong>Hi, I’m your conversation assistant.</strong><span>I can point you to follow-ups, customer risks, and records that need a human check. I’ll show you the source passage behind each answer.</span></div>
+            </div>
+            <div class="suggested-questions" aria-label="Suggested questions">
+              <button type="button" class="suggested-question" data-question="What should I look at first?">What needs my attention?</button>
+              <button type="button" class="suggested-question" data-question="Which customer follow-ups matter today?">Which customers need follow-up?</button>
+              <button type="button" class="suggested-question" data-question="Explain M04 in simple terms.">Explain M04</button>
+            </div>
+            <form class="assistant-form" id="assistant-form">
+              <label class="visually-hidden" for="assistant-question">Ask about these conversations</label>
+              <input id="assistant-question" name="question" maxlength="500" placeholder="Ask in your own words…" autocomplete="off" required>
+              <button class="button button-primary" type="submit" id="assistant-send"><span aria-hidden="true">↑</span><span>Ask</span></button>
+            </form>
+            <p class="assistant-disclaimer">Suggestions only. Check the linked conversation before making a decision.</p>
+          </section>
+          <aside class="assistant-glance" aria-label="Quick view of selected records">
+            <div class="glance-heading"><div class="eyebrow">A QUICK LOOK</div><h3>In this set of records</h3></div>
+            <div class="coverage-visual">
+              <div class="coverage-ring" id="coverage-ring" role="img" aria-label="Text coverage"><span id="coverage-number">—</span></div>
+              <div><strong id="coverage-title">Loading text coverage</strong><span id="coverage-caption">Only records with actual words count as usable text.</span></div>
+            </div>
+            <div class="glance-bar-label"><span>Has words to review</span><strong id="coverage-fraction">—</strong></div>
+            <div class="glance-bar"><span id="coverage-bar"></span></div>
+            <div class="glance-section-title">Activity in this selection</div>
+            <div class="glance-volume" id="glance-volume"></div>
+            <div class="glance-section-title">What needs attention</div>
+            <div class="glance-risk" id="glance-risk"></div>
+            <div class="glance-states" id="glance-states"></div>
+            <div class="updates-heading"><div class="glance-section-title">Recent input changes</div><span id="notification-count" aria-live="polite">0 new</span></div>
+            <button class="notification-enable" id="enable-desktop-alerts" type="button">Enable desktop alerts</button>
+            <div class="notification-feed" id="notification-feed" aria-live="polite"></div>
+            <button class="text-action notification-read" id="mark-notifications-read" type="button" hidden>Mark changes as seen</button>
+            <button class="text-action" type="button" data-view="overview">See all numbers and charts <span aria-hidden="true">→</span></button>
+          </aside>
+        </div>
+      </section>
+
+      <section class="view-panel" id="overview-view" aria-labelledby="page-title">
+        <div class="metric-grid" id="metric-grid"></div>
+        <div class="dashboard-grid">
+          <section class="panel risk-breakdown-panel">
+            <div class="panel-heading">
+              <div><div class="eyebrow">WHERE ATTENTION IS NEEDED</div><h2>Risk and review by source</h2><p class="chart-denominator" id="risk-breakdown-denominator"></p></div>
+              <button class="help-button" title="Bars show the share within calls or meetings. A risk is a transcript-supported route, not a prediction. No risk found means only that the reviewed text had no matching risk route.">i</button>
+            </div>
+            <div id="risk-breakdown-chart" class="risk-breakdown-chart" role="group" aria-label="Risk and review categories, split between calls and meetings"></div>
+          </section>
+          <section class="panel people-panel">
+            <div class="panel-heading">
+              <div><div class="eyebrow">WHO IS IN THIS EXTRACT</div><h2>Activity by person</h2><p class="chart-denominator" id="people-denominator"></p></div>
+              <button class="help-button" title="Calls are grouped by rep_name; meetings by organizer_email. Organisers are not assumed to be sellers or attendees.">i</button>
+            </div>
+            <div id="people-chart" class="people-chart"></div>
+          </section>
+          <section class="panel routing-panel">
+            <div class="panel-heading">
+              <div><div class="eyebrow">CURRENT DESTINATIONS</div><h2>Routes &amp; review</h2></div>
+              <button class="help-button" title="Unique records count each record once; route assignments count every destination. Multi-route records make assignments exceed unique records.">i</button>
+            </div>
+            <div id="route-summary"></div>
+          </section>
+          <section class="panel quality-panel">
+            <div class="panel-heading">
+              <div><div class="eyebrow">SOURCE CLAIMS TO CHECK</div><h2>Data quality flags</h2></div>
+              <button class="help-button" title="Flags compare supplied metadata with other source fields or available transcript text. They do not rewrite source values.">i</button>
+            </div>
+            <div id="quality-summary"></div>
+          </section>
+        </div>
+        <section class="panel record-list-panel">
+          <div class="panel-heading list-heading">
+            <div><div class="eyebrow">SELECTED SOURCE RECORDS</div><h2>Needs attention and next steps</h2></div>
+            <button class="button button-quiet" data-view="inbox">Open all records <span aria-hidden="true">→</span></button>
+          </div>
+          <div class="table-wrap"><table><thead><tr><th>Record</th><th>Person</th><th>Attention</th><th>Intake</th><th>Route decision</th><th>Analysis</th></tr></thead><tbody id="record-table"></tbody></table></div>
+        </section>
+      </section>
+
+      <section class="view-panel" id="inbox-view" aria-labelledby="inbox-heading">
+        <div class="section-title-row"><div><div class="eyebrow">SOURCE-LED REVIEW</div><h2 id="inbox-heading">Conversation inbox</h2><p class="section-copy">Open a record to inspect source fields, transcript evidence, analysis freshness and route decisions.</p></div></div>
+        <div class="inbox-list" id="inbox-list"></div>
+      </section>
+
+      <section class="view-panel" id="brief-view" aria-labelledby="brief-heading">
+        <div class="section-title-row"><div><div class="eyebrow">FIXED TO THIS EXTRACT</div><h2 id="brief-heading">Manager brief</h2><p class="section-copy">Evidence-linked priorities for 21 August 2026.</p></div></div>
+        <div id="brief-content" class="brief-content"></div>
+      </section>
+      <footer class="app-footer"><span>Pre-generated analysis, checked against supplied text.</span><span>Counts, coverage, freshness, routing and exports run locally.</span></footer>
+    </main>
+  </div>
+
+  <div class="drawer-backdrop" id="drawer-backdrop" hidden></div>
+  <aside class="record-drawer" id="record-drawer" aria-label="Record detail" aria-modal="true" role="dialog" hidden>
+    <div class="drawer-top"><div><div class="eyebrow" id="drawer-kicker">RECORD DETAIL</div><h2 id="drawer-title">Record</h2></div><button class="icon-button" id="close-drawer" aria-label="Close record detail">×</button></div>
+    <div id="drawer-content" class="drawer-content"></div>
+  </aside>
+</body>
+</html>

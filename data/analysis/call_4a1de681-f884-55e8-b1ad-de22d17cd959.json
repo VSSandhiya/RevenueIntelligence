@@ -1,0 +1,35 @@
+{
+  "source_type": "call",
+  "source_id": "4a1de681-f884-55e8-b1ad-de22d17cd959",
+  "record_ref": "C09",
+  "source_revision": 1,
+  "output_kind": "prospect_routing_review",
+  "what_happened": "The contact says an internal system is used, cannot explain its coverage, and points to a business head without permission to use the contact's name.",
+  "why_it_matters": "A possible discovery path exists, but attribution and permission boundaries are explicit and the technical gap is unknown.",
+  "what_evidence_does_not_establish": "It does not establish that the business head can be contacted, that the system has a gap, or that the contact endorses outreach.",
+  "next_step": "Do not use the referrer's name; seek an independently appropriate public contact path and verify permission before outreach.",
+  "owner": null,
+  "review_required": true,
+  "evidence": [
+    {
+      "quote": "you can find our business head, Mr Rishabh, on a professional networking site.",
+      "point": "A possible contact route is suggested."
+    },
+    {
+      "quote": "No, please don't use my name.",
+      "point": "The contact explicitly limits attribution."
+    }
+  ],
+  "route_rules": [
+    {
+      "route": "Needs human",
+      "trigger": "No, please don't use my name.",
+      "reason": "The suggested path has an explicit attribution boundary and needs a human to verify a permissible contact route."
+    },
+    {
+      "route": "Prospect follow-up",
+      "trigger": "whether there are any gaps in the software.",
+      "reason": "The transcript identifies an unverified discovery question, not a confirmed gap."
+    }
+  ]
+}

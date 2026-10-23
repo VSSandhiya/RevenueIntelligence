@@ -1,0 +1,199 @@
+{
+  "batch_id": "update-002",
+  "revision": 2,
+  "exported_at": "2026-08-22T10:00:00+05:30",
+  "records": [
+    {
+      "record_ref": "M07",
+      "source_type": "meeting",
+      "source_id": "4f304fff-fd40-5cfc-a366-0a134c445c2a",
+      "payload": {
+        "id": "4f304fff-fd40-5cfc-a366-0a134c445c2a",
+        "title": "Willowfield Trust / SpendNest discussion",
+        "starts_at": "2026-08-21T05:30:00Z",
+        "ends_at": "2026-08-21T06:30:00Z",
+        "duration_seconds": 1236,
+        "provider": "google_meet",
+        "join_url": "https://meet.example.invalid/4f304fff-fd40-5cfc-a366-0a134c445c2a",
+        "organizer_email": "team09@example.com",
+        "attendee_count": 1,
+        "recording_status": "recorded",
+        "recording_detail": null,
+        "recording_id": "e4a51f57-1dde-5345-bb2e-e10e1d52cfb6",
+        "has_transcript": true,
+        "has_video": true,
+        "summary": null,
+        "summary_status": "stored",
+        "redacted": true
+      },
+      "transcript_payload": {
+        "meeting_id": "4f304fff-fd40-5cfc-a366-0a134c445c2a",
+        "turns": [
+          {
+            "speaker": "Team member A",
+            "starts_at_seconds": 516.4732,
+            "timecode": "00:08:36",
+            "text": "I wanted to go through the issues you sent yesterday. If you share your screen, we can look at what is happening and I can take the details back to the team."
+          },
+          {
+            "speaker": "Customer A",
+            "starts_at_seconds": 599.613,
+            "timecode": "00:09:59",
+            "text": "The first one is editing the description. I am changing this event-payment description to a short reference and clicking Save changes. Now look at the displayed description again."
+          },
+          {
+            "speaker": "Team member A",
+            "starts_at_seconds": 676.8065,
+            "timecode": "00:11:16",
+            "text": "The field still shows the earlier wording. So the change is not appearing after you save, is that right?"
+          },
+          {
+            "speaker": "Customer A",
+            "starts_at_seconds": 691.549,
+            "timecode": "00:11:31",
+            "text": "Yes, it is still the old description. That is why I sent it across."
+          },
+          {
+            "speaker": "Team member A",
+            "starts_at_seconds": 693.0225,
+            "timecode": "00:11:33",
+            "text": "Please reopen Edit. I want to see whether the editing form has the new value while the other screen still has the old one."
+          },
+          {
+            "speaker": "Customer A",
+            "starts_at_seconds": 707.2065,
+            "timecode": "00:11:47",
+            "text": "I will change it again to a different reference and save. It is saved now; let us check the other screen once more."
+          },
+          {
+            "speaker": "Team member A",
+            "starts_at_seconds": 728.6505,
+            "timecode": "00:12:08",
+            "text": "I have captured screenshots of that behaviour. I will get it checked today. I do not have an explanation for it yet."
+          },
+          {
+            "speaker": "Customer A",
+            "starts_at_seconds": 745.8677,
+            "timecode": "00:12:25",
+            "text": "Next is Recreate payment. Can we look at that here? When I go through this route, I cannot upload a document."
+          },
+          {
+            "speaker": "Team member A",
+            "starts_at_seconds": 759.5937,
+            "timecode": "00:12:39",
+            "text": "A new attachment is not being accepted on this screen? First click Save changes at the bottom, before creating the bill, so we can check the alternative path."
+          },
+          {
+            "speaker": "Customer A",
+            "starts_at_seconds": 779.99365,
+            "timecode": "00:12:59",
+            "text": "Saved. I have gone into Bill pay and then the invoice inbox. Now I am opening the Review option."
+          },
+          {
+            "speaker": "Team member A",
+            "starts_at_seconds": 802.0685,
+            "timecode": "00:13:22",
+            "text": "Try attaching the invoice here. I am checking whether the upload itself fails or whether it is specifically the screen reached from Recreate payment."
+          },
+          {
+            "speaker": "Customer A",
+            "starts_at_seconds": 818.2117,
+            "timecode": "00:13:38",
+            "text": "It uploads here. This route works, so it is not that I cannot attach a file anywhere."
+          },
+          {
+            "speaker": "Team member A",
+            "starts_at_seconds": 820.5005,
+            "timecode": "00:13:40",
+            "text": "Please also check Manage documents for adding another attachment. While the team investigates the direct route, the workaround is to save the changes, return to the invoice inbox, open Review and upload the document there."
+          },
+          {
+            "speaker": "Customer A",
+            "starts_at_seconds": 893.08167,
+            "timecode": "00:14:53",
+            "text": "Okay, we have an alternative for now. It is still extra steps compared with doing it directly when recreating the payment."
+          },
+          {
+            "speaker": "Team member A",
+            "starts_at_seconds": 894.9881,
+            "timecode": "00:14:54",
+            "text": "Yes. I will still raise the original behaviour with the team. The workaround does not mean the direct upload issue has been resolved."
+          },
+          {
+            "speaker": "Customer A",
+            "starts_at_seconds": 901.9721,
+            "timecode": "00:15:01",
+            "text": "The next issue is in reimbursements. I cannot select the first group of transactions on this screen."
+          },
+          {
+            "speaker": "Team member A",
+            "starts_at_seconds": 910.64966,
+            "timecode": "00:15:10",
+            "text": "Those payments are already in Processing, which is why selection is disabled. Is this only for one user, or are others seeing the same thing?"
+          },
+          {
+            "speaker": "Customer A",
+            "starts_at_seconds": 931.8617,
+            "timecode": "00:15:31",
+            "text": "It happened for another user too, though that instance was resolved later. This set is still in the same state."
+          },
+          {
+            "speaker": "Team member A",
+            "starts_at_seconds": 937.2701,
+            "timecode": "00:15:37",
+            "text": "The payments appear to have been released but are stuck showing Processing. I have asked the team to look at these. I expect an update or resolution in an hour or two, and I will inform you when they confirm."
+          },
+          {
+            "speaker": "Customer A",
+            "starts_at_seconds": 983.60645,
+            "timecode": "00:16:23",
+            "text": "There is one more problem. It was not in the original list, but I can show it now while we are here."
+          },
+          {
+            "speaker": "Customer A",
+            "starts_at_seconds": 987.5264,
+            "timecode": "00:16:27",
+            "text": "When I use Mark as paid, the first payment shows INR 18,200. I enter the amount I need and save that payment. Then I open the next payment and choose Mark as paid again."
+          },
+          {
+            "speaker": "Customer A",
+            "starts_at_seconds": 1053.8384,
+            "timecode": "00:17:33",
+            "text": "The amount from the previous item appears in the next one. Each time I have to cancel, leave it and open Mark as paid again before it shows the right information."
+          },
+          {
+            "speaker": "Team member A",
+            "starts_at_seconds": 1070.6229,
+            "timecode": "00:17:50",
+            "text": "Let me confirm: it is retaining the previous amount rather than fetching the next payment's value. It should refresh when the next item opens, but that is not what we are seeing."
+          },
+          {
+            "speaker": "Customer A",
+            "starts_at_seconds": 1075.1364,
+            "timecode": "00:17:55",
+            "text": "Yes, the old value carries forward. So I end up doing the same action twice for each item."
+          },
+          {
+            "speaker": "Team member A",
+            "starts_at_seconds": 1087.959,
+            "timecode": "00:18:07",
+            "text": "I understand the sequence now. I will report that separately as well, with the steps you showed, and ask the team to investigate the refresh behaviour."
+          },
+          {
+            "speaker": "Customer A",
+            "starts_at_seconds": 1096.6953,
+            "timecode": "00:18:16",
+            "text": "Those are the current issues. The attachment workaround helps, but we still need the other items checked."
+          },
+          {
+            "speaker": "Team member A",
+            "starts_at_seconds": 1099.657,
+            "timecode": "00:18:19",
+            "text": "I will send the details to the team, get their confirmation and come back to you. Thank you for showing the actual steps rather than only the final screen."
+          }
+        ],
+        "unavailable_reason": null
+      }
+    }
+  ]
+}

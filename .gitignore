@@ -1,0 +1,9 @@
+.kilo/
+.vscode/
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+state/*.db*
+exports/current/

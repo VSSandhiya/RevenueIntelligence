@@ -1,0 +1,35 @@
+{
+  "source_type": "call",
+  "source_id": "428817fa-7e9e-5418-a7d4-bb396d28dfbf",
+  "record_ref": "C07",
+  "source_revision": 1,
+  "output_kind": "partner_channel_follow_up",
+  "what_happened": "An advisory firm confirms it normally refers clients for business accounts and agrees to receive a proposal through its messaging app and take a Monday call.",
+  "why_it_matters": "There is a relevant referral motion and an explicit next step, but no partner agreement or referral volume is established.",
+  "what_evidence_does_not_establish": "It does not establish signed terms, client eligibility, or expected conversions.",
+  "next_step": "Send the proposal on the agreed channel and call Monday as permitted.",
+  "owner": "Dev",
+  "review_required": false,
+  "evidence": [
+    {
+      "quote": "Yes, that is something we normally do.",
+      "point": "The contact describes an existing referral practice."
+    },
+    {
+      "quote": "Once you've received them, could I call on Monday to see whether you'd like to discuss it further? Yes, that's fine.",
+      "point": "The contact agrees to a Monday follow-up."
+    }
+  ],
+  "route_rules": [
+    {
+      "route": "Partner/channel",
+      "trigger": "Yes, that is something we normally do.",
+      "reason": "The contact normally arranges accounts for incorporated clients."
+    },
+    {
+      "route": "Prospect follow-up",
+      "trigger": "send whatever proposal you have",
+      "reason": "The contact requests a proposal and permits a Monday follow-up."
+    }
+  ]
+}

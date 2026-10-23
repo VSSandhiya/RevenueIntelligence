@@ -1,0 +1,2802 @@
+{
+  "batch_id": "initial-001",
+  "revision": 1,
+  "exported_at": "2026-08-22T09:00:00+05:30",
+  "records": [
+    {
+      "record_ref": "B01",
+      "source_type": "call",
+      "source_id": "4868e5cd-5ab8-581c-a0e4-acc37385f0cf",
+      "payload": {
+        "id": "4868e5cd-5ab8-581c-a0e4-acc37385f0cf",
+        "external_call_id": "EXT-00001",
+        "workspace_slug": "workspace-01",
+        "rep_email": "arun@example.com",
+        "rep_name": "Arun",
+        "rep_user_id": "be3ed75a-8e5c-5545-ad7f-986d9d7b0821",
+        "direction": "outbound",
+        "direction_raw": "outbound",
+        "from_number": "PHONE-001",
+        "to_number": "PHONE-002",
+        "started_at": "2026-08-21T18:29:29Z",
+        "duration_seconds": 8,
+        "talk_time_seconds": 5,
+        "speaker_count": 1,
+        "segment_count": 1,
+        "is_connected": false,
+        "is_conversation": false,
+        "observed_outcome": "voicemail",
+        "classification_reason": null,
+        "classification_status": "stored",
+        "is_campaign_call": true,
+        "first_dial_ever": true,
+        "first_connect_ever": true,
+        "prior_dials_ever": 0,
+        "prior_connects_ever": 0,
+        "summary": null,
+        "summary_status": "stored",
+        "transcript": null
+      },
+      "transcript_payload": null
+    },
+    {
+      "record_ref": "B02",
+      "source_type": "call",
+      "source_id": "5747e4cd-e24f-5bed-bf74-9e3f326b2d77",
+      "payload": {
+        "id": "5747e4cd-e24f-5bed-bf74-9e3f326b2d77",
+        "external_call_id": "EXT-00002",
+        "workspace_slug": "workspace-02",
+        "rep_email": "leela@example.com",
+        "rep_name": "Leela",
+        "rep_user_id": null,
+        "direction": "inbound",
+        "direction_raw": "inbound",
+        "from_number": "PHONE-003",
+        "to_number": "PHONE-004",
+        "started_at": "2026-08-21T18:29:19Z",
+        "duration_seconds": 20,
+        "talk_time_seconds": 20,
+        "speaker_count": 1,
+        "segment_count": 1,
+        "is_connected": false,
+        "is_conversation": false,
+        "observed_outcome": "unresponsive",
+        "classification_reason": null,
+        "classification_status": "stored",
+        "is_campaign_call": false,
+        "first_dial_ever": true,
+        "first_connect_ever": false,
+        "prior_dials_ever": 0,
+        "prior_connects_ever": 15,
+        "summary": null,
+        "summary_status": "stored",
+        "transcript": null
+      },
+      "transcript_payload": null
+    },
+    {
+      "record_ref": "B03",
+      "source_type": "call",
+      "source_id": "024caffc-d16e-5843-b325-682dbc8d448e",
+      "payload": {
+        "id": "024caffc-d16e-5843-b325-682dbc8d448e",
+        "external_call_id": "EXT-00003",
+        "workspace_slug": "workspace-01",
+        "rep_email": "arun@example.com",
+        "rep_name": "Arun",
+        "rep_user_id": "be3ed75a-8e5c-5545-ad7f-986d9d7b0821",
+        "direction": "outbound",
+        "direction_raw": "outbound",
+        "from_number": "PHONE-001",
+        "to_number": "PHONE-005",
+        "started_at": "2026-08-21T18:29:02Z",
+        "duration_seconds": 4,
+        "talk_time_seconds": 4,
+        "speaker_count": 1,
+        "segment_count": 1,
+        "is_connected": false,
+        "is_conversation": false,
+        "observed_outcome": "voicemail",
+        "classification_reason": null,
+        "classification_status": "stored",
+        "is_campaign_call": true,
+        "first_dial_ever": true,
+        "first_connect_ever": true,
+        "prior_dials_ever": 0,
+        "prior_connects_ever": 0,
+        "summary": null,
+        "summary_status": "stored",
+        "transcript": null
+      },
+      "transcript_payload": null
+    },
+    {
+      "record_ref": "B04",
+      "source_type": "call",
+      "source_id": "530207ea-d67b-521a-8085-bdb9ae665417",
+      "payload": {
+        "id": "530207ea-d67b-521a-8085-bdb9ae665417",
+        "external_call_id": "EXT-00004",
+        "workspace_slug": "workspace-01",
+        "rep_email": "arun@example.com",
+        "rep_name": "Arun",
+        "rep_user_id": "be3ed75a-8e5c-5545-ad7f-986d9d7b0821",
+        "direction": "outbound",
+        "direction_raw": "outbound",
+        "from_number": "PHONE-001",
+        "to_number": "PHONE-006",
+        "started_at": "2026-08-21T18:28:37Z",
+        "duration_seconds": 8,
+        "talk_time_seconds": 4,
+        "speaker_count": 1,
+        "segment_count": 1,
+        "is_connected": false,
+        "is_conversation": false,
+        "observed_outcome": "voicemail",
+        "classification_reason": null,
+        "classification_status": "stored",
+        "is_campaign_call": true,
+        "first_dial_ever": true,
+        "first_connect_ever": true,
+        "prior_dials_ever": 0,
+        "prior_connects_ever": 0,
+        "summary": null,
+        "summary_status": "stored",
+        "transcript": null
+      },
+      "transcript_payload": null
+    },
+    {
+      "record_ref": "B05",
+      "source_type": "call",
+      "source_id": "903641e9-d761-591a-a149-334ddfcd236e",
+      "payload": {
+        "id": "903641e9-d761-591a-a149-334ddfcd236e",
+        "external_call_id": "EXT-00005",
+        "workspace_slug": "workspace-02",
+        "rep_email": "leela@example.com",
+        "rep_name": "Leela",
+        "rep_user_id": null,
+        "direction": "outbound",
+        "direction_raw": "outbound",
+        "from_number": "PHONE-007",
+        "to_number": "PHONE-003",
+        "started_at": "2026-08-21T18:28:35Z",
+        "duration_seconds": 5,
+        "talk_time_seconds": 5,
+        "speaker_count": 1,
+        "segment_count": 1,
+        "is_connected": false,
+        "is_conversation": false,
+        "observed_outcome": "voicemail",
+        "classification_reason": null,
+        "classification_status": "stored",
+        "is_campaign_call": true,
+        "first_dial_ever": false,
+        "first_connect_ever": false,
+        "prior_dials_ever": 5,
+        "prior_connects_ever": 1,
+        "summary": null,
+        "summary_status": "stored",
+        "transcript": null
+      },
+      "transcript_payload": null
+    },
+    {
+      "record_ref": "B06",
+      "source_type": "call",
+      "source_id": "53f61c95-27b9-50c2-8755-08f957594950",
+      "payload": {
+        "id": "53f61c95-27b9-50c2-8755-08f957594950",
+        "external_call_id": "EXT-00006",
+        "workspace_slug": "workspace-02",
+        "rep_email": "leela@example.com",
+        "rep_name": "Leela",
+        "rep_user_id": null,
+        "direction": "inbound",
+        "direction_raw": "inbound",
+        "from_number": "PHONE-003",
+        "to_number": "PHONE-004",
+        "started_at": "2026-08-21T18:27:56Z",
+        "duration_seconds": 17,
+        "talk_time_seconds": 17,
+        "speaker_count": 1,
+        "segment_count": 1,
+        "is_connected": false,
+        "is_conversation": false,
+        "observed_outcome": "unresponsive",
+        "classification_reason": null,
+        "classification_status": "stored",
+        "is_campaign_call": false,
+        "first_dial_ever": true,
+        "first_connect_ever": false,
+        "prior_dials_ever": 0,
+        "prior_connects_ever": 14,
+        "summary": null,
+        "summary_status": "stored",
+        "transcript": null
+      },
+      "transcript_payload": null
+    },
+    {
+      "record_ref": "B07",
+      "source_type": "call",
+      "source_id": "f9be8537-1ad9-58fc-be24-78f73d09db9c",
+      "payload": {
+        "id": "f9be8537-1ad9-58fc-be24-78f73d09db9c",
+        "external_call_id": "EXT-00007",
+        "workspace_slug": "workspace-01",
+        "rep_email": "arun@example.com",
+        "rep_name": "Arun",
+        "rep_user_id": "be3ed75a-8e5c-5545-ad7f-986d9d7b0821",
+        "direction": "outbound",
+        "direction_raw": "outbound",
+        "from_number": "PHONE-001",
+        "to_number": "PHONE-008",
+        "started_at": "2026-08-21T18:27:31Z",
+        "duration_seconds": 3,
+        "talk_time_seconds": 3,
+        "speaker_count": 1,
+        "segment_count": 1,
+        "is_connected": false,
+        "is_conversation": false,
+        "observed_outcome": "voicemail",
+        "classification_reason": null,
+        "classification_status": "stored",
+        "is_campaign_call": true,
+        "first_dial_ever": true,
+        "first_connect_ever": true,
+        "prior_dials_ever": 0,
+        "prior_connects_ever": 0,
+        "summary": null,
+        "summary_status": "stored",
+        "transcript": null
+      },
+      "transcript_payload": null
+    },
+    {
+      "record_ref": "B08",
+      "source_type": "call",
+      "source_id": "77350513-913c-5fed-b4e6-71009de9df03",
+      "payload": {
+        "id": "77350513-913c-5fed-b4e6-71009de9df03",
+        "external_call_id": "EXT-00008",
+        "workspace_slug": "workspace-02",
+        "rep_email": "leela@example.com",
+        "rep_name": "Leela",
+        "rep_user_id": null,
+        "direction": "inbound",
+        "direction_raw": "inbound",
+        "from_number": "PHONE-003",
+        "to_number": "PHONE-004",
+        "started_at": "2026-08-21T18:26:51Z",
+        "duration_seconds": 21,
+        "talk_time_seconds": 21,
+        "speaker_count": 1,
+        "segment_count": 1,
+        "is_connected": false,
+        "is_conversation": false,
+        "observed_outcome": "unresponsive",
+        "classification_reason": null,
+        "classification_status": "stored",
+        "is_campaign_call": false,
+        "first_dial_ever": true,
+        "first_connect_ever": false,
+        "prior_dials_ever": 0,
+        "prior_connects_ever": 13,
+        "summary": null,
+        "summary_status": "stored",
+        "transcript": null
+      },
+      "transcript_payload": null
+    },
+    {
+      "record_ref": "B09",
+      "source_type": "call",
+      "source_id": "747390bc-f359-5609-bf79-0a44ef8919bd",
+      "payload": {
+        "id": "747390bc-f359-5609-bf79-0a44ef8919bd",
+        "external_call_id": "EXT-00009",
+        "workspace_slug": "workspace-01",
+        "rep_email": "arun@example.com",
+        "rep_name": "Arun",
+        "rep_user_id": "be3ed75a-8e5c-5545-ad7f-986d9d7b0821",
+        "direction": "outbound",
+        "direction_raw": "outbound",
+        "from_number": "PHONE-001",
+        "to_number": "PHONE-009",
+        "started_at": "2026-08-21T18:26:43Z",
+        "duration_seconds": 26,
+        "talk_time_seconds": 5,
+        "speaker_count": 1,
+        "segment_count": 1,
+        "is_connected": false,
+        "is_conversation": false,
+        "observed_outcome": "voicemail",
+        "classification_reason": null,
+        "classification_status": "stored",
+        "is_campaign_call": true,
+        "first_dial_ever": true,
+        "first_connect_ever": true,
+        "prior_dials_ever": 0,
+        "prior_connects_ever": 0,
+        "summary": null,
+        "summary_status": "stored",
+        "transcript": null
+      },
+      "transcript_payload": null
+    },
+    {
+      "record_ref": "B10",
+      "source_type": "call",
+      "source_id": "3ea930a1-0496-51e3-9dca-adc3be29331a",
+      "payload": {
+        "id": "3ea930a1-0496-51e3-9dca-adc3be29331a",
+        "external_call_id": "EXT-00010",
+        "workspace_slug": "workspace-01",
+        "rep_email": "arun@example.com",
+        "rep_name": "Arun",
+        "rep_user_id": "be3ed75a-8e5c-5545-ad7f-986d9d7b0821",
+        "direction": "outbound",
+        "direction_raw": "outbound",
+        "from_number": "PHONE-001",
+        "to_number": "PHONE-010",
+        "started_at": "2026-08-21T18:25:52Z",
+        "duration_seconds": 10,
+        "talk_time_seconds": 7,
+        "speaker_count": 1,
+        "segment_count": 1,
+        "is_connected": false,
+        "is_conversation": false,
+        "observed_outcome": "voicemail",
+        "classification_reason": null,
+        "classification_status": "stored",
+        "is_campaign_call": true,
+        "first_dial_ever": true,
+        "first_connect_ever": true,
+        "prior_dials_ever": 0,
+        "prior_connects_ever": 0,
+        "summary": null,
+        "summary_status": "stored",
+        "transcript": null
+      },
+      "transcript_payload": null
+    },
+    {
+      "record_ref": "B11",
+      "source_type": "call",
+      "source_id": "bfefcb48-1a98-5610-a0ee-0f03434188a9",
+      "payload": {
+        "id": "bfefcb48-1a98-5610-a0ee-0f03434188a9",
+        "external_call_id": "EXT-00011",
+        "workspace_slug": "workspace-02",
+        "rep_email": "leela@example.com",
+        "rep_name": "Leela",
+        "rep_user_id": null,
+        "direction": "inbound",
+        "direction_raw": "inbound",
+        "from_number": "PHONE-003",
+        "to_number": "PHONE-004",
+        "started_at": "2026-08-21T18:25:44Z",
+        "duration_seconds": 26,
+        "talk_time_seconds": 26,
+        "speaker_count": 1,
+        "segment_count": 1,
+        "is_connected": true,
+        "is_conversation": false,
+        "observed_outcome": "unresponsive",
+        "classification_reason": null,
+        "classification_status": "stored",
+        "is_campaign_call": false,
+        "first_dial_ever": true,
+        "first_connect_ever": false,
+        "prior_dials_ever": 0,
+        "prior_connects_ever": 12,
+        "summary": null,
+        "summary_status": "stored",
+        "transcript": null
+      },
+      "transcript_payload": null
+    },
+    {
+      "record_ref": "B12",
+      "source_type": "call",
+      "source_id": "9a64eb58-d462-5a6e-aa9e-c0f88852ebe0",
+      "payload": {
+        "id": "9a64eb58-d462-5a6e-aa9e-c0f88852ebe0",
+        "external_call_id": "EXT-00012",
+        "workspace_slug": "workspace-01",
+        "rep_email": "arun@example.com",
+        "rep_name": "Arun",
+        "rep_user_id": "be3ed75a-8e5c-5545-ad7f-986d9d7b0821",
+        "direction": "outbound",
+        "direction_raw": "outbound",
+        "from_number": "PHONE-001",
+        "to_number": "PHONE-011",
+        "started_at": "2026-08-21T18:25:21Z",
+        "duration_seconds": 10,
+        "talk_time_seconds": 4,
+        "speaker_count": 1,
+        "segment_count": 1,
+        "is_connected": false,
+        "is_conversation": false,
+        "observed_outcome": "voicemail",
+        "classification_reason": null,
+        "classification_status": "stored",
+        "is_campaign_call": true,
+        "first_dial_ever": true,
+        "first_connect_ever": true,
+        "prior_dials_ever": 0,
+        "prior_connects_ever": 0,
+        "summary": null,
+        "summary_status": "stored",
+        "transcript": null
+      },
+      "transcript_payload": null
+    },
+    {
+      "record_ref": "B13",
+      "source_type": "call",
+      "source_id": "6521ed7d-53fc-5b3b-be77-7d4610c90ed7",
+      "payload": {
+        "id": "6521ed7d-53fc-5b3b-be77-7d4610c90ed7",
+        "external_call_id": "EXT-00013",
+        "workspace_slug": "workspace-01",
+        "rep_email": "arun@example.com",
+        "rep_name": "Arun",
+        "rep_user_id": "be3ed75a-8e5c-5545-ad7f-986d9d7b0821",
+        "direction": "outbound",
+        "direction_raw": "outbound",
+        "from_number": "PHONE-001",
+        "to_number": "PHONE-012",
+        "started_at": "2026-08-21T18:24:21Z",
+        "duration_seconds": 4,
+        "talk_time_seconds": 5,
+        "speaker_count": 1,
+        "segment_count": 1,
+        "is_connected": false,
+        "is_conversation": false,
+        "observed_outcome": "voicemail",
+        "classification_reason": null,
+        "classification_status": "stored",
+        "is_campaign_call": true,
+        "first_dial_ever": true,
+        "first_connect_ever": true,
+        "prior_dials_ever": 0,
+        "prior_connects_ever": 0,
+        "summary": null,
+        "summary_status": "stored",
+        "transcript": null
+      },
+      "transcript_payload": null
+    },
+    {
+      "record_ref": "B14",
+      "source_type": "call",
+      "source_id": "81da63f4-eac6-5efd-95e1-69ad6e6def25",
+      "payload": {
+        "id": "81da63f4-eac6-5efd-95e1-69ad6e6def25",
+        "external_call_id": "EXT-00014",
+        "workspace_slug": "workspace-02",
+        "rep_email": "leela@example.com",
+        "rep_name": "Leela",
+        "rep_user_id": null,
+        "direction": "outbound",
+        "direction_raw": "outbound",
+        "from_number": "PHONE-007",
+        "to_number": "PHONE-003",
+        "started_at": "2026-08-21T18:23:44Z",
+        "duration_seconds": 9,
+        "talk_time_seconds": 9,
+        "speaker_count": 1,
+        "segment_count": 1,
+        "is_connected": true,
+        "is_conversation": false,
+        "observed_outcome": "unresponsive",
+        "classification_reason": null,
+        "classification_status": "stored",
+        "is_campaign_call": true,
+        "first_dial_ever": true,
+        "first_connect_ever": true,
+        "prior_dials_ever": 0,
+        "prior_connects_ever": 0,
+        "summary": null,
+        "summary_status": "stored",
+        "transcript": null
+      },
+      "transcript_payload": null
+    },
+    {
+      "record_ref": "B15",
+      "source_type": "call",
+      "source_id": "2ada5ab0-8a84-54b7-a071-cd5bd6ad5abd",
+      "payload": {
+        "id": "2ada5ab0-8a84-54b7-a071-cd5bd6ad5abd",
+        "external_call_id": "EXT-00015",
+        "workspace_slug": "workspace-01",
+        "rep_email": "arun@example.com",
+        "rep_name": "Arun",
+        "rep_user_id": "be3ed75a-8e5c-5545-ad7f-986d9d7b0821",
+        "direction": "outbound",
+        "direction_raw": "outbound",
+        "from_number": "PHONE-001",
+        "to_number": "PHONE-013",
+        "started_at": "2026-08-21T18:23:36Z",
+        "duration_seconds": 22,
+        "talk_time_seconds": 4,
+        "speaker_count": 1,
+        "segment_count": 1,
+        "is_connected": false,
+        "is_conversation": false,
+        "observed_outcome": "voicemail",
+        "classification_reason": null,
+        "classification_status": "stored",
+        "is_campaign_call": true,
+        "first_dial_ever": true,
+        "first_connect_ever": true,
+        "prior_dials_ever": 0,
+        "prior_connects_ever": 0,
+        "summary": null,
+        "summary_status": "stored",
+        "transcript": null
+      },
+      "transcript_payload": null
+    },
+    {
+      "record_ref": "B16",
+      "source_type": "call",
+      "source_id": "1f5181ed-4175-5d73-a16b-01d404b1820d",
+      "payload": {
+        "id": "1f5181ed-4175-5d73-a16b-01d404b1820d",
+        "external_call_id": "EXT-00016",
+        "workspace_slug": "workspace-02",
+        "rep_email": "leela@example.com",
+        "rep_name": "Leela",
+        "rep_user_id": null,
+        "direction": "outbound",
+        "direction_raw": "outbound",
+        "from_number": "PHONE-007",
+        "to_number": "PHONE-014",
+        "started_at": "2026-08-21T18:23:29Z",
+        "duration_seconds": 4,
+        "talk_time_seconds": 4,
+        "speaker_count": 1,
+        "segment_count": 1,
+        "is_connected": false,
+        "is_conversation": false,
+        "observed_outcome": "voicemail",
+        "classification_reason": null,
+        "classification_status": "stored",
+        "is_campaign_call": true,
+        "first_dial_ever": true,
+        "first_connect_ever": true,
+        "prior_dials_ever": 0,
+        "prior_connects_ever": 0,
+        "summary": null,
+        "summary_status": "stored",
+        "transcript": null
+      },
+      "transcript_payload": null
+    },
+    {
+      "record_ref": "B17",
+      "source_type": "call",
+      "source_id": "1645d595-1896-5201-9395-cb8a9f1c5f3a",
+      "payload": {
+        "id": "1645d595-1896-5201-9395-cb8a9f1c5f3a",
+        "external_call_id": "EXT-00017",
+        "workspace_slug": "workspace-01",
+        "rep_email": "arun@example.com",
+        "rep_name": "Arun",
+        "rep_user_id": "be3ed75a-8e5c-5545-ad7f-986d9d7b0821",
+        "direction": "outbound",
+        "direction_raw": "outbound",
+        "from_number": "PHONE-001",
+        "to_number": "PHONE-015",
+        "started_at": "2026-08-21T18:22:59Z",
+        "duration_seconds": 9,
+        "talk_time_seconds": 4,
+        "speaker_count": 1,
+        "segment_count": 1,
+        "is_connected": false,
+        "is_conversation": false,
+        "observed_outcome": "voicemail",
+        "classification_reason": null,
+        "classification_status": "stored",
+        "is_campaign_call": true,
+        "first_dial_ever": true,
+        "first_connect_ever": true,
+        "prior_dials_ever": 0,
+        "prior_connects_ever": 0,
+        "summary": null,
+        "summary_status": "stored",
+        "transcript": null
+      },
+      "transcript_payload": null
+    },
+    {
+      "record_ref": "B18",
+      "source_type": "call",
+      "source_id": "26c3ccc3-63a6-55f6-a5a3-e279b36b7e88",
+      "payload": {
+        "id": "26c3ccc3-63a6-55f6-a5a3-e279b36b7e88",
+        "external_call_id": "EXT-00018",
+        "workspace_slug": "workspace-01",
+        "rep_email": "arun@example.com",
+        "rep_name": "Arun",
+        "rep_user_id": "be3ed75a-8e5c-5545-ad7f-986d9d7b0821",
+        "direction": "outbound",
+        "direction_raw": "outbound",
+        "from_number": "PHONE-001",
+        "to_number": "PHONE-016",
+        "started_at": "2026-08-21T18:21:58Z",
+        "duration_seconds": 31,
+        "talk_time_seconds": 4,
+        "speaker_count": 1,
+        "segment_count": 1,
+        "is_connected": false,
+        "is_conversation": false,
+        "observed_outcome": "voicemail",
+        "classification_reason": null,
+        "classification_status": "stored",
+        "is_campaign_call": true,
+        "first_dial_ever": true,
+        "first_connect_ever": true,
+        "prior_dials_ever": 0,
+        "prior_connects_ever": 0,
+        "summary": null,
+        "summary_status": "stored",
+        "transcript": null
+      },
+      "transcript_payload": null
+    },
+    {
+      "record_ref": "B19",
+      "source_type": "call",
+      "source_id": "6ee11c0e-c74a-5805-b552-657443378b72",
+      "payload": {
+        "id": "6ee11c0e-c74a-5805-b552-657443378b72",
+        "external_call_id": "EXT-00019",
+        "workspace_slug": "workspace-01",
+        "rep_email": "arun@example.com",
+        "rep_name": "Arun",
+        "rep_user_id": "be3ed75a-8e5c-5545-ad7f-986d9d7b0821",
+        "direction": "outbound",
+        "direction_raw": "outbound",
+        "from_number": "PHONE-001",
+        "to_number": "PHONE-017",
+        "started_at": "2026-08-21T18:21:24Z",
+        "duration_seconds": 10,
+        "talk_time_seconds": 4,
+        "speaker_count": 1,
+        "segment_count": 1,
+        "is_connected": false,
+        "is_conversation": false,
+        "observed_outcome": "voicemail",
+        "classification_reason": null,
+        "classification_status": "stored",
+        "is_campaign_call": true,
+        "first_dial_ever": true,
+        "first_connect_ever": true,
+        "prior_dials_ever": 0,
+        "prior_connects_ever": 0,
+        "summary": null,
+        "summary_status": "stored",
+        "transcript": null
+      },
+      "transcript_payload": null
+    },
+    {
+      "record_ref": "B20",
+      "source_type": "call",
+      "source_id": "94b4f015-b243-5b89-b435-9957125ecdd4",
+      "payload": {
+        "id": "94b4f015-b243-5b89-b435-9957125ecdd4",
+        "external_call_id": "EXT-00020",
+        "workspace_slug": "workspace-02",
+        "rep_email": "leela@example.com",
+        "rep_name": "Leela",
+        "rep_user_id": null,
+        "direction": "outbound",
+        "direction_raw": "outbound",
+        "from_number": "PHONE-007",
+        "to_number": "PHONE-018",
+        "started_at": "2026-08-21T18:21:02Z",
+        "duration_seconds": 3,
+        "talk_time_seconds": 3,
+        "speaker_count": 1,
+        "segment_count": 1,
+        "is_connected": false,
+        "is_conversation": false,
+        "observed_outcome": "voicemail",
+        "classification_reason": null,
+        "classification_status": "stored",
+        "is_campaign_call": true,
+        "first_dial_ever": true,
+        "first_connect_ever": true,
+        "prior_dials_ever": 0,
+        "prior_connects_ever": 0,
+        "summary": null,
+        "summary_status": "stored",
+        "transcript": null
+      },
+      "transcript_payload": null
+    },
+    {
+      "record_ref": "C01",
+      "source_type": "call",
+      "source_id": "2ec4404c-beee-5377-a63c-aab701da08ed",
+      "payload": {
+        "id": "2ec4404c-beee-5377-a63c-aab701da08ed",
+        "external_call_id": "EXT-00021",
+        "workspace_slug": "workspace-01",
+        "rep_email": "arun@example.com",
+        "rep_name": "Arun",
+        "rep_user_id": "be3ed75a-8e5c-5545-ad7f-986d9d7b0821",
+        "direction": "outbound",
+        "direction_raw": "outbound",
+        "from_number": "PHONE-001",
+        "to_number": "PHONE-019",
+        "started_at": "2026-08-21T18:11:25Z",
+        "duration_seconds": 99,
+        "talk_time_seconds": 90,
+        "speaker_count": 2,
+        "segment_count": 17,
+        "is_connected": true,
+        "is_conversation": true,
+        "observed_outcome": "uninterested",
+        "classification_reason": null,
+        "classification_status": "stored",
+        "is_campaign_call": true,
+        "first_dial_ever": true,
+        "first_connect_ever": true,
+        "prior_dials_ever": 0,
+        "prior_connects_ever": 0,
+        "summary": null,
+        "summary_status": "stored",
+        "transcript": "Hello, Pranav here. Hi Pranav, Arun calling from SpendNest. I wanted to ask about Harborlight Advisory. Sorry, who is this? Arun from SpendNest. I was hoping to discuss Harborlight Advisory with you. Why are you calling? We work with outsourced finance leadership firms and—no, I asked why you have called me. Right, I wanted to understand whether a partnership might be relevant. I don't know how I ended up on your list. I didn't ask for this call, and I'm not interested. This number is for my work, not for people to sell things to me. I understand. This is business outreach, and we were hoping to—it's still a cold call, isn't it? Yes, it is. Then where did you find my details? Through a professional networking outreach programme; that's how we obtained the contact information. I realise this was unexpected and that you aren't happy about being contacted. If you are willing—just briefly, what does your company actually do? We partner with firms providing part-time finance leadership and look at ways to automate their finance operations. Our service can help with that. Our processes are already very automated. We have a fairly advanced setup, so I don't think this is something we need. Thanks anyway. All right, thank you for hearing me out. Goodbye."
+      },
+      "transcript_payload": null
+    },
+    {
+      "record_ref": "C02",
+      "source_type": "call",
+      "source_id": "4b870624-8aad-5315-a60e-0db95981cf99",
+      "payload": {
+        "id": "4b870624-8aad-5315-a60e-0db95981cf99",
+        "external_call_id": "EXT-00022",
+        "workspace_slug": "workspace-01",
+        "rep_email": "arun@example.com",
+        "rep_name": "Arun",
+        "rep_user_id": "be3ed75a-8e5c-5545-ad7f-986d9d7b0821",
+        "direction": "outbound",
+        "direction_raw": "outbound",
+        "from_number": "PHONE-001",
+        "to_number": "PHONE-020",
+        "started_at": "2026-08-21T17:44:02Z",
+        "duration_seconds": 105,
+        "talk_time_seconds": 103,
+        "speaker_count": 2,
+        "segment_count": 8,
+        "is_connected": true,
+        "is_conversation": true,
+        "observed_outcome": "ooo",
+        "classification_reason": null,
+        "classification_status": "stored",
+        "is_campaign_call": true,
+        "first_dial_ever": true,
+        "first_connect_ever": true,
+        "prior_dials_ever": 0,
+        "prior_connects_ever": 0,
+        "summary": null,
+        "summary_status": "stored",
+        "transcript": "Good morning, you've reached Fernhaven Group. Kavya speaking. How may I help? Hello Kavya. Could I speak with Leela, please? Leela? Let me check whether she is around. Please hold for a moment. Of course, thank you. It looks as though she isn't in the office today. Would you like to leave a message with me, or would you prefer her voicemail? Her voicemail would be fine, thank you. Certainly, I'll put you through to the mailbox now. Thanks for calling. Thank you for your help."
+      },
+      "transcript_payload": null
+    },
+    {
+      "record_ref": "C03",
+      "source_type": "call",
+      "source_id": "20d509ba-d589-5334-9aef-ea4ce6105b1a",
+      "payload": {
+        "id": "20d509ba-d589-5334-9aef-ea4ce6105b1a",
+        "external_call_id": "EXT-00023",
+        "workspace_slug": "workspace-02",
+        "rep_email": "kiran@example.com",
+        "rep_name": "Kiran",
+        "rep_user_id": "cd39fe0e-1d0a-583e-8102-824e5dd98af6",
+        "direction": "outbound",
+        "direction_raw": "outbound",
+        "from_number": "PHONE-021",
+        "to_number": "PHONE-022",
+        "started_at": "2026-08-21T16:47:07Z",
+        "duration_seconds": 215,
+        "talk_time_seconds": 215,
+        "speaker_count": 2,
+        "segment_count": 28,
+        "is_connected": true,
+        "is_conversation": true,
+        "observed_outcome": "follow_up",
+        "classification_reason": null,
+        "classification_status": "stored",
+        "is_campaign_call": false,
+        "first_dial_ever": false,
+        "first_connect_ever": false,
+        "prior_dials_ever": 13,
+        "prior_connects_ever": 13,
+        "summary": null,
+        "summary_status": "stored",
+        "transcript": "Please say your name after the signal and the screening service will try to connect you. Hello? Hi Milan, Kiran here from SpendNest. How are you? Sorry, I can hardly hear you. Who is this? Kiran. We discussed developer access a while ago, and you asked for about five weeks before following up. I don't want to cut you off, but the sound is very faint. Can you hear me any better now? Slightly, yes. I'm calling about the API access your development team was considering. Have you got an order reference? No, this is SpendNest, about your team's API requirement. Ah, yes, now I remember. Sorry. We did ask about some developer functionality, but it isn't essential enough for us to spend much on it. I would need to check with the team. If they sent something, perhaps we are still interested, but the last conversation was more about leaving things as they were. I can't quite remember. When we last spoke, price was a concern. I said you could tell me the budget you had in mind and we could explore whether there was a workable option. You were going to discuss that internally. I'm struggling to catch what you're saying. I'm outside, and it may be my phone. Could we do this by email? Or call on Monday a bit earlier, when I'm back indoors? I can email you. Would you be able to respond there? I'll also try you on Monday. What subject should I look for? Something like “Developer access and event notifications — follow-up”. Right, let's do that. I think the connection problem is on my side; I'm travelling and using roaming. Send the email and we can speak Monday or Tuesday. All right, I'll send it over. Sorry again about the audio. No problem at all. Thank you, take care."
+      },
+      "transcript_payload": null
+    },
+    {
+      "record_ref": "C04",
+      "source_type": "call",
+      "source_id": "bcdcbf56-d338-5c78-9a97-42c2fc1c9931",
+      "payload": {
+        "id": "bcdcbf56-d338-5c78-9a97-42c2fc1c9931",
+        "external_call_id": "EXT-00024",
+        "workspace_slug": "workspace-01",
+        "rep_email": "arun@example.com",
+        "rep_name": "Arun",
+        "rep_user_id": "be3ed75a-8e5c-5545-ad7f-986d9d7b0821",
+        "direction": "outbound",
+        "direction_raw": "outbound",
+        "from_number": "PHONE-001",
+        "to_number": "PHONE-023",
+        "started_at": "2026-08-21T14:22:29Z",
+        "duration_seconds": 95,
+        "talk_time_seconds": 95,
+        "speaker_count": 2,
+        "segment_count": 8,
+        "is_connected": false,
+        "is_conversation": false,
+        "observed_outcome": "voicemail",
+        "classification_reason": null,
+        "classification_status": "stored",
+        "is_campaign_call": false,
+        "first_dial_ever": true,
+        "first_connect_ever": true,
+        "prior_dials_ever": 0,
+        "prior_connects_ever": 0,
+        "summary": null,
+        "summary_status": "stored",
+        "transcript": "Please record your name and the purpose of your call so the recipient can decide whether to answer. Arun from SpendNest, following up on our earlier conversation about expense software for Lanternpath Media. Thank you. Please hold. The person you called is unavailable. You may leave a further message after the signal. Hello, this is a message for Ritesh. Arun from SpendNest here. I'm following up on your consideration of our expense platform for Lanternpath Media. My understanding is that our information first went to the wrong email address. We subsequently used the corrected address you gave us, and I hope you have now had a chance to see it. Please call me back to let me know where things stand. If you've decided whether to move forward, or if there are questions we can answer to help you decide, I'd be happy to discuss them. You can reach me on [phone withheld]. I hope to hear from you when you have an update. Thank you."
+      },
+      "transcript_payload": null
+    },
+    {
+      "record_ref": "C05",
+      "source_type": "call",
+      "source_id": "75a6b94f-7717-5cfb-9e41-0acc94415e17",
+      "payload": {
+        "id": "75a6b94f-7717-5cfb-9e41-0acc94415e17",
+        "external_call_id": "EXT-00025",
+        "workspace_slug": "workspace-03",
+        "rep_email": "meera@example.com",
+        "rep_name": "Meera",
+        "rep_user_id": "f90ff541-3566-5786-8855-b598d1cd48ff",
+        "direction": "outbound",
+        "direction_raw": "outbound",
+        "from_number": "PHONE-024",
+        "to_number": "PHONE-025",
+        "started_at": "2026-08-21T12:35:16Z",
+        "duration_seconds": 165,
+        "talk_time_seconds": 165,
+        "speaker_count": 2,
+        "segment_count": 30,
+        "is_connected": true,
+        "is_conversation": true,
+        "observed_outcome": "follow_up",
+        "classification_reason": null,
+        "classification_status": "stored",
+        "is_campaign_call": true,
+        "first_dial_ever": true,
+        "first_connect_ever": true,
+        "prior_dials_ever": 0,
+        "prior_connects_ever": 0,
+        "summary": null,
+        "summary_status": "stored",
+        "transcript": "Hello? Good evening. Who's speaking? Meera here. To be upfront, this is an introductory sales call. Could I have about forty seconds to explain? I can't hear properly; there's an echo. Is the sound clearer now? A little. Go ahead. I'll be brief. I'm with SpendNest. We offer expense software to bring purchasing and vendor processes together: approvals, documents and payments, with a dashboard showing where money is being spent. For companies operating several stores, we also offer cards so they can see spending by location. What exactly is the product? Software for managing store expenses, using controlled cards and instant-payment accounts with spending limits and approval steps. What else does it cover? Vendor management as well. You can keep suppliers on the platform and route their bills for approval before paying them. We already have that. Understood. Does your current system also execute the vendor payments? Yes, it does. Okay. We also have store-level instant payments, with individual budgets and approval controls. We have that too. It sounds as though your existing setup covers a lot. May I ask which platform you're using? There are several. One is StoreHarbor, and we use others too. What I suggest is that you send me your presentation. If we ever decide to change the providers we already have, we could consider it then. Certainly. I have an email address noted down; may I confirm contact05@example.com? Yes, that is right. Thanks for your time. Enjoy the rest of your evening. Thank you, goodbye."
+      },
+      "transcript_payload": null
+    },
+    {
+      "record_ref": "C06",
+      "source_type": "call",
+      "source_id": "12216d5c-e254-52c6-b344-47de4c6e1ae5",
+      "payload": {
+        "id": "12216d5c-e254-52c6-b344-47de4c6e1ae5",
+        "external_call_id": "EXT-00026",
+        "workspace_slug": "workspace-03",
+        "rep_email": "meera@example.com",
+        "rep_name": "Meera",
+        "rep_user_id": "f90ff541-3566-5786-8855-b598d1cd48ff",
+        "direction": "outbound",
+        "direction_raw": "outbound",
+        "from_number": "PHONE-024",
+        "to_number": "PHONE-026",
+        "started_at": "2026-08-21T12:31:11Z",
+        "duration_seconds": 153,
+        "talk_time_seconds": 153,
+        "speaker_count": 2,
+        "segment_count": 24,
+        "is_connected": true,
+        "is_conversation": true,
+        "observed_outcome": "uninterested",
+        "classification_reason": null,
+        "classification_status": "stored",
+        "is_campaign_call": true,
+        "first_dial_ever": true,
+        "first_connect_ever": true,
+        "prior_dials_ever": 0,
+        "prior_connects_ever": 0,
+        "summary": null,
+        "summary_status": "stored",
+        "transcript": "Hello? Good evening, Mr Nikhil. Good evening. Ravi here. I'll say at the start that this is a cold call. Could I take about forty seconds to explain the purpose? If it isn't relevant, you can end the call. What is it about? I'll keep it short. We work with retail and distribution businesses that want to replace manual handling of store expenses and supplier payments. SpendNest brings invoices, vendor payments and documents into one dashboard. You can see which location is spending what, manage different branches together and separate expenses by department. The idea is to give management visibility while making approvals and payment releases easier for finance and operations. We already have many of those things in place. If there is something we need from you in future, we can contact you. Of course. One final question, so others from our organisation don't keep bothering you about something you already have: I understand you have more than a hundred and twenty stores. Do managers use company cards, or are local expenses handled through cash advances? We have quite a lot of automation, with a mixed model where needed. The essential processes are automated and connected through our business management system. Head office manages it, and we have full visibility. That is why I said the arrangements are already in place. If a particular need comes up later, we will reach out. All right. With our cards and instant payments, we provide similar visibility—there is also a separate department here monitoring this every day. Understood. Thank you for explaining, and thank you for your time. Thanks. Goodbye."
+      },
+      "transcript_payload": null
+    },
+    {
+      "record_ref": "C07",
+      "source_type": "call",
+      "source_id": "428817fa-7e9e-5418-a7d4-bb396d28dfbf",
+      "payload": {
+        "id": "428817fa-7e9e-5418-a7d4-bb396d28dfbf",
+        "external_call_id": "EXT-00027",
+        "workspace_slug": "workspace-03",
+        "rep_email": "dev@example.com",
+        "rep_name": "Dev",
+        "rep_user_id": "df95f001-2b4e-5265-b923-c90c0f53673a",
+        "direction": "outbound",
+        "direction_raw": "outbound",
+        "from_number": "PHONE-027",
+        "to_number": "PHONE-028",
+        "started_at": "2026-08-21T12:22:28Z",
+        "duration_seconds": 193,
+        "talk_time_seconds": 193,
+        "speaker_count": 2,
+        "segment_count": 51,
+        "is_connected": true,
+        "is_conversation": true,
+        "observed_outcome": "follow_up",
+        "classification_reason": null,
+        "classification_status": "stored",
+        "is_campaign_call": false,
+        "first_dial_ever": true,
+        "first_connect_ever": true,
+        "prior_dials_ever": 0,
+        "prior_connects_ever": 0,
+        "summary": null,
+        "summary_status": "stored",
+        "transcript": "Hello, is this Mr Aditya at Willowbank Advisory? Yes. Dev calling from SpendNest. Is this an okay time for a conversation? Yes, go ahead. Thank you. I wanted to ask about a possible partnership. Do you help clients incorporate companies overseas as well as domestically? We support several overseas jurisdictions, yes. And do you help those companies open accounts after incorporation? The reason I ask is that SpendNest offers virtual accounts for businesses once the company has been formed. Are you an accounting firm handling their ongoing compliance? No, not an accounting firm. Think of providers such as CloudLedger Accounts or Clearport Money: an account a business can use to receive and send payments. So a business account? Something like an online payments provider? Similar in some respects, though not exactly the same. I see. How can we help? We'd like to partner with advisory firms such as yours so your clients can access a virtual business account after incorporation. Do you currently refer clients to providers for that part of the process? Yes, that is something we normally do. So you help arrange accounts, and would those typically be digital accounts rather than accounts at physical banks? Hello? Sorry, could you message me on our chat app and send whatever proposal you have? Certainly. Is this the same number you use for messages? Yes. All right, I'll send the details there. Once you've received them, could I call on Monday to see whether you'd like to discuss it further? Yes, that's fine. Thank you for your time."
+      },
+      "transcript_payload": null
+    },
+    {
+      "record_ref": "C08",
+      "source_type": "call",
+      "source_id": "129497b2-8e1d-5e01-919c-e8a852b5ff68",
+      "payload": {
+        "id": "129497b2-8e1d-5e01-919c-e8a852b5ff68",
+        "external_call_id": "EXT-00028",
+        "workspace_slug": "workspace-03",
+        "rep_email": "meera@example.com",
+        "rep_name": "Meera",
+        "rep_user_id": "f90ff541-3566-5786-8855-b598d1cd48ff",
+        "direction": "outbound",
+        "direction_raw": "outbound",
+        "from_number": "PHONE-024",
+        "to_number": "PHONE-029",
+        "started_at": "2026-08-21T11:53:22Z",
+        "duration_seconds": 201,
+        "talk_time_seconds": 201,
+        "speaker_count": 2,
+        "segment_count": 46,
+        "is_connected": true,
+        "is_conversation": true,
+        "observed_outcome": "referred",
+        "classification_reason": null,
+        "classification_status": "stored",
+        "is_campaign_call": true,
+        "first_dial_ever": true,
+        "first_connect_ever": true,
+        "prior_dials_ever": 0,
+        "prior_connects_ever": 0,
+        "summary": null,
+        "summary_status": "stored",
+        "transcript": "Hello? Good evening, Mr Raghav. Good evening. Meera speaking. This is a cold introduction, and I'd like about forty seconds to explain why I'm calling. What is it regarding? I'm from SpendNest. We help companies bring fragmented expense and payables processes together: supplier records, invoice processing, local expenses, advances and reimbursements. Cards and instant payments can have spending limits, so the company can see what each fulfilment location or manager is spending. The same system can hold documents, schedule payments and route approvals, leaving a record of the activity. Is this an enterprise management system? We position it alongside one. Your existing system may handle accounts, records and approvals; we provide payment execution and related records, with connections back to that system. All right, I understand. Let me give you an email address. Could you send a proposal there? Absolutely. The colleague handling our people operations also deals with frontline processes and the locations. I think we may have been looking at a solution, but I don't know the details. There have been some discussions. If you send him a proposal and say you spoke with me, he can take a look. Certainly. Let me write the address down. It's contact08@example.com. Could you repeat that? contact08@example.com. Let me read it back to make sure I have the right address: contact08@example.com? Yes, that's correct. Okay, I'll send the information there. Hopefully there is something useful to explore. Fine, thank you. Thank you for your time. Have a good evening. Goodbye."
+      },
+      "transcript_payload": null
+    },
+    {
+      "record_ref": "C09",
+      "source_type": "call",
+      "source_id": "4a1de681-f884-55e8-b1ad-de22d17cd959",
+      "payload": {
+        "id": "4a1de681-f884-55e8-b1ad-de22d17cd959",
+        "external_call_id": "EXT-00029",
+        "workspace_slug": "workspace-03",
+        "rep_email": "meera@example.com",
+        "rep_name": "Meera",
+        "rep_user_id": "f90ff541-3566-5786-8855-b598d1cd48ff",
+        "direction": "outbound",
+        "direction_raw": "outbound",
+        "from_number": "PHONE-024",
+        "to_number": "PHONE-030",
+        "started_at": "2026-08-21T11:26:03Z",
+        "duration_seconds": 143,
+        "talk_time_seconds": 143,
+        "speaker_count": 2,
+        "segment_count": 18,
+        "is_connected": true,
+        "is_conversation": true,
+        "observed_outcome": "referred",
+        "classification_reason": null,
+        "classification_status": "stored",
+        "is_campaign_call": true,
+        "first_dial_ever": true,
+        "first_connect_ever": true,
+        "prior_dials_ever": 0,
+        "prior_connects_ever": 0,
+        "summary": null,
+        "summary_status": "stored",
+        "transcript": "Hello, good evening, Mr Vedant. Good evening. Meera here. To be clear, this is a cold call. Could I take about forty seconds to explain the reason? If it's not relevant, you can stop me. All right. I'm with SpendNest, an expense platform. We work with businesses operating multiple stores, and I understand you have roughly a hundred and thirty locations. We bring store expenses, petty cash and supplier payments into one view, using controlled instant payments and invoice processing. Budgets and spending limits help management see who is spending what, while approval steps govern outgoing expenses. We have developed our own software internally, so at present we aren't looking for anything outside the organisation. I understand. Just one question so another colleague doesn't call you again about the same thing: does your internal system only record expenses and approvals, or does it also make the payments? I don't know the detail. Our central team handles this. If you want to speak to somebody about it, you can find our business head, Mr Rishabh, on a professional networking site. He would be able to explain our requirements and whether there are any gaps in the software. Understood. Would it be all right if I mentioned your name when contacting him? No, please don't use my name. Of course, no problem. That is why I wanted to ask first. Thank you for pointing me in the right direction. Thank you. Have a good day. You too. Goodbye."
+      },
+      "transcript_payload": null
+    },
+    {
+      "record_ref": "C10",
+      "source_type": "call",
+      "source_id": "b747f592-810e-583c-9b81-8db5ab035806",
+      "payload": {
+        "id": "b747f592-810e-583c-9b81-8db5ab035806",
+        "external_call_id": "EXT-00030",
+        "workspace_slug": "workspace-03",
+        "rep_email": "meera@example.com",
+        "rep_name": "Meera",
+        "rep_user_id": "f90ff541-3566-5786-8855-b598d1cd48ff",
+        "direction": "outbound",
+        "direction_raw": "outbound",
+        "from_number": "PHONE-024",
+        "to_number": "PHONE-031",
+        "started_at": "2026-08-21T11:21:15Z",
+        "duration_seconds": 109,
+        "talk_time_seconds": 109,
+        "speaker_count": 2,
+        "segment_count": 21,
+        "is_connected": true,
+        "is_conversation": true,
+        "observed_outcome": "follow_up",
+        "classification_reason": null,
+        "classification_status": "stored",
+        "is_campaign_call": true,
+        "first_dial_ever": true,
+        "first_connect_ever": true,
+        "prior_dials_ever": 0,
+        "prior_connects_ever": 0,
+        "summary": null,
+        "summary_status": "stored",
+        "transcript": "Hello? Hello, good evening, Mr Aniket. Yes? Meera here. Could I briefly explain why I'm calling? What is this about? We work with companies that want to move vendor handling and invoice processing away from manual steps. SpendNest brings together scheduled payments and approval workflows so managers can see more of what is happening across operations and finance. Are you calling about Meadowbrick? Yes, that's right. I don't work there anymore. I'm sorry about that. Are you with a different organisation now? Yes. Is it in the same sector, or have you moved into a different area? It is different. Manufacturing. Understood. We also work with manufacturing businesses, because expense management can help—why don't you just send me a brief on the messaging app? I'll look at it and come back to you. Certainly. To make it relevant, would accounts payable and supplier management be the part to focus on, or—send an explanation of what you do. I will get back to you. All right, I'll do that. Would a follow-up call on Monday or Tuesday next week be okay, in case you have any questions? No. I said I will contact you if there is anything to discuss. Understood. Thank you for your time, Mr Aniket. Thank you. Take care. Goodbye."
+      },
+      "transcript_payload": null
+    },
+    {
+      "record_ref": "M01",
+      "source_type": "meeting",
+      "source_id": "cb5cecac-e68d-52b7-b10b-b0c748efc467",
+      "payload": {
+        "id": "cb5cecac-e68d-52b7-b10b-b0c748efc467",
+        "title": "Harborpath Advisory / SpendNest discussion",
+        "starts_at": "2026-08-21T13:00:00Z",
+        "ends_at": "2026-08-21T13:15:00Z",
+        "duration_seconds": 1121,
+        "provider": "google_meet",
+        "join_url": "https://meet.example.invalid/cb5cecac-e68d-52b7-b10b-b0c748efc467",
+        "organizer_email": "team06@example.com",
+        "attendee_count": 1,
+        "recording_status": "recorded",
+        "recording_detail": null,
+        "recording_id": "99a82374-ab84-5b94-9a63-388aefa57fb9",
+        "has_transcript": true,
+        "has_video": true,
+        "summary": null,
+        "summary_status": "failed",
+        "redacted": true
+      },
+      "transcript_payload": {
+        "meeting_id": "cb5cecac-e68d-52b7-b10b-b0c748efc467",
+        "turns": [
+          {
+            "speaker": "Partner A",
+            "starts_at_seconds": 163.97572,
+            "timecode": "00:02:43",
+            "text": "My understanding was that you help people open bank accounts remotely. That is what I wanted to explore for the clients coming through Harborpath Advisory."
+          },
+          {
+            "speaker": "Team member A",
+            "starts_at_seconds": 173.26791,
+            "timecode": "00:02:53",
+            "text": "Yes, with one important boundary: we work with registered businesses, not individuals opening personal accounts. Is the business use case what you had in mind?"
+          },
+          {
+            "speaker": "Partner A",
+            "starts_at_seconds": 193.70634,
+            "timecode": "00:03:13",
+            "text": "I am open to whatever I can sensibly offer our clients. Tell me what the actual product is and how the arrangement works."
+          },
+          {
+            "speaker": "Team member A",
+            "starts_at_seconds": 197.33392,
+            "timecode": "00:03:17",
+            "text": "For businesses with a US entity, SpendNest offers virtual accounts and wallets in several currencies. There are corporate cards as well, and an expense platform for businesses with more transactions. Expenses can sync into accounting tools. But I want to repeat the registered-business point before we get into the rest."
+          },
+          {
+            "speaker": "Team member A",
+            "starts_at_seconds": 285.8739,
+            "timecode": "00:04:45",
+            "text": "Are you already recommending other digital account providers? I am trying to understand what you currently do for clients who need this."
+          },
+          {
+            "speaker": "Partner A",
+            "starts_at_seconds": 302.25674,
+            "timecode": "00:05:02",
+            "text": "Yes, I use some myself and recommend them. Usually I receive nothing for the recommendation. If there is a sensible commercial arrangement here, that is interesting to me."
+          },
+          {
+            "speaker": "Team member A",
+            "starts_at_seconds": 318.14392,
+            "timecode": "00:05:18",
+            "text": "Let me show you the partner commission slide, the customer pricing and the onboarding requirements. We had a short slot; can you stay a little longer if needed?"
+          },
+          {
+            "speaker": "Partner A",
+            "starts_at_seconds": 364.25873,
+            "timecode": "00:06:04",
+            "text": "A bit longer is fine. But I do not need a detailed explanation of every feature. Send me the presentation or a document and I can use AI to work through the material."
+          },
+          {
+            "speaker": "Team member A",
+            "starts_at_seconds": 385.0909,
+            "timecode": "00:06:25",
+            "text": "Understood. The activation payment is USD 260 when a referred company gets its account approved by our compliance partners. The cards option also has an interchange revenue share and a bonus based on the customer's spending during the first 60 days. For example, USD 6,500–32,500 of spend earns a USD 195 bonus; the next bracket through USD 130,000 earns USD 390. There is also a volume bonus for every fifth successful referral."
+          },
+          {
+            "speaker": "Team member A",
+            "starts_at_seconds": 506.50092,
+            "timecode": "00:08:26",
+            "text": "Customer pricing is separate from your commission. On the card plan there is a USD 38 monthly charge below USD 2,600 of monthly card spending. Above that threshold the plan fee is waived. The bank-transfer plan uses outgoing transfer volume rather than the number of users. There are introductory offers too, so I will put the exact terms in writing rather than expect you to remember this slide."
+          },
+          {
+            "speaker": "Team member A",
+            "starts_at_seconds": 618.2069,
+            "timecode": "00:10:18",
+            "text": "Any questions on that before I cover what a referred business must provide?"
+          },
+          {
+            "speaker": "Partner A",
+            "starts_at_seconds": 626.18176,
+            "timecode": "00:10:26",
+            "text": "No, let us get the partner onboarding started."
+          },
+          {
+            "speaker": "Team member A",
+            "starts_at_seconds": 629.2069,
+            "timecode": "00:10:29",
+            "text": "For you, we send a memorandum to sign. For customers, approval needs incorporation and tax documents, identity documents, an ownership chart and a website. Another important point is evidence of US operations or intended operations: contracts, service agreements or similar material. A newly formed business may not have that yet. I do not want a referral to be surprised later when compliance asks for it."
+          },
+          {
+            "speaker": "Partner A",
+            "starts_at_seconds": 758.7031,
+            "timecode": "00:12:38",
+            "text": "Okay, that distinction makes sense."
+          },
+          {
+            "speaker": "Team member A",
+            "starts_at_seconds": 761.6889,
+            "timecode": "00:12:41",
+            "text": "Normally you introduce a business by email and our sales team holds a short demo. That checks that what the business needs actually matches what SpendNest provides."
+          },
+          {
+            "speaker": "Partner A",
+            "starts_at_seconds": 817.741,
+            "timecode": "00:13:37",
+            "text": "How do we track that? Is there a referral link, a code, or am I writing an introduction each time?"
+          },
+          {
+            "speaker": "Team member A",
+            "starts_at_seconds": 830.8069,
+            "timecode": "00:13:50",
+            "text": "I can share a sheet that shows the leads you referred, where they are in onboarding and the commission associated with them."
+          },
+          {
+            "speaker": "Partner A",
+            "starts_at_seconds": 851.965,
+            "timecode": "00:14:11",
+            "text": "That is the tracking, but how do I send the lead in? Is there a link they can use?"
+          },
+          {
+            "speaker": "Team member A",
+            "starts_at_seconds": 857.3529,
+            "timecode": "00:14:17",
+            "text": "An email introduction is our usual starting point. I can also provide a unique referral link if that is easier for your process."
+          },
+          {
+            "speaker": "Partner A",
+            "starts_at_seconds": 883.38904,
+            "timecode": "00:14:43",
+            "text": "It cannot depend on me manually writing every email. This needs to scale when people discover the offer through us."
+          },
+          {
+            "speaker": "Team member A",
+            "starts_at_seconds": 890.0259,
+            "timecode": "00:14:50",
+            "text": "Then let us use the unique link. They fill in the business information, then go through to arranging a demo with our team. The shared sheet would still show their onboarding status and the relevant commission."
+          },
+          {
+            "speaker": "Partner A",
+            "starts_at_seconds": 934.69305,
+            "timecode": "00:15:34",
+            "text": "Okay, that is closer to what I need."
+          },
+          {
+            "speaker": "Team member A",
+            "starts_at_seconds": 939.5799,
+            "timecode": "00:15:39",
+            "text": "Two limitations to include in your material: receiving funds here means bank transfers, not directly taking card payments from customers. A business can use a separate card-payment processor and settle into its account. It also needs a way to fund the account, either an international transfer from its own bank or incoming customer funds, before making outgoing payments."
+          },
+          {
+            "speaker": "Partner A",
+            "starts_at_seconds": 1040.6271,
+            "timecode": "00:17:20",
+            "text": "The main thing is to have all of that written down, with the link and contact route. Then I can prepare a product page and make the offer available quickly."
+          },
+          {
+            "speaker": "Team member A",
+            "starts_at_seconds": 1057.6979,
+            "timecode": "00:17:37",
+            "text": "I will send the documents and the information discussed here."
+          },
+          {
+            "speaker": "Partner A",
+            "starts_at_seconds": 1063.275,
+            "timecode": "00:17:43",
+            "text": "Later, perhaps we could record a podcast with someone who can explain the product well. That could help us introduce it."
+          },
+          {
+            "speaker": "Team member A",
+            "starts_at_seconds": 1076.73,
+            "timecode": "00:17:56",
+            "text": "Yes, I can connect you with marketing about that. We can also explore featuring Harborpath Advisory on our partner page and promoting the services through our business channels."
+          },
+          {
+            "speaker": "Partner A",
+            "starts_at_seconds": 1103.36,
+            "timecode": "00:18:23",
+            "text": "Good. I look forward to the information so we can take it from there."
+          }
+        ],
+        "unavailable_reason": null
+      }
+    },
+    {
+      "record_ref": "M02",
+      "source_type": "meeting",
+      "source_id": "1a21c409-c050-5787-90af-2667e057e1b6",
+      "payload": {
+        "id": "1a21c409-c050-5787-90af-2667e057e1b6",
+        "title": "LedgerBridge / SpendNest discussion",
+        "starts_at": "2026-08-21T11:30:00Z",
+        "ends_at": "2026-08-21T12:00:00Z",
+        "duration_seconds": 3113,
+        "provider": "google_meet",
+        "join_url": "https://meet.example.invalid/1a21c409-c050-5787-90af-2667e057e1b6",
+        "organizer_email": "team07@example.com",
+        "attendee_count": 1,
+        "recording_status": "recorded",
+        "recording_detail": null,
+        "recording_id": "674657f9-9d16-5bf1-b979-efae41370bd8",
+        "has_transcript": true,
+        "has_video": true,
+        "summary": null,
+        "summary_status": "stored",
+        "redacted": true
+      },
+      "transcript_payload": {
+        "meeting_id": "1a21c409-c050-5787-90af-2667e057e1b6",
+        "turns": [
+          {
+            "speaker": "Team member A",
+            "starts_at_seconds": 322.3498,
+            "timecode": "00:05:22",
+            "text": "I work on strategy and partnerships at SpendNest. We serve businesses with cards and accounts payable, and we are developing accounts receivable. We want to understand whether LedgerBridge can give us compliant invoicing coverage across our operating markets. My colleague leads the product side."
+          },
+          {
+            "speaker": "Supplier A",
+            "starts_at_seconds": 394.35864,
+            "timecode": "00:06:34",
+            "text": "Then I will cover the market strategy as well as the technical integration. Are you more interested in generating invoice PDFs or in electronic invoicing through the relevant networks?"
+          },
+          {
+            "speaker": "Team member B",
+            "starts_at_seconds": 523.0778,
+            "timecode": "00:08:43",
+            "text": "Electronic invoicing is the bigger opportunity. Customers already have approved invoice layouts. The manual part is taking that information into separate portals, both when issuing and receiving invoices."
+          },
+          {
+            "speaker": "Supplier A",
+            "starts_at_seconds": 561.61884,
+            "timecode": "00:09:21",
+            "text": "That helps narrow the initial markets. We can also support voluntary electronic invoicing before a mandate. Do you already know which customers require that?"
+          },
+          {
+            "speaker": "Team member B",
+            "starts_at_seconds": 604.7818,
+            "timecode": "00:10:04",
+            "text": "I would need to check. I do not have a reliable answer on that specific requirement yet."
+          },
+          {
+            "speaker": "Team member B",
+            "starts_at_seconds": 648.0378,
+            "timecode": "00:10:48",
+            "text": "There is also a US reporting use case around certain non-payroll payments. Is that included, or is it a different service?"
+          },
+          {
+            "speaker": "Supplier A",
+            "starts_at_seconds": 669.69086,
+            "timecode": "00:11:09",
+            "text": "That is a reporting requirement rather than our standard invoicing flow. We sometimes handle such needs as custom projects. Our core scope is compliant invoicing, so please keep that distinction in mind."
+          },
+          {
+            "speaker": "Team member A",
+            "starts_at_seconds": 750.3336,
+            "timecode": "00:12:30",
+            "text": "We want customers to issue and receive invoices in a compliant way without adding another disconnected platform. With the receivables module coming, this could make the overall product more complete and encourage customers to stay with us."
+          },
+          {
+            "speaker": "Supplier A",
+            "starts_at_seconds": 858.2846,
+            "timecode": "00:14:18",
+            "text": "So this is a strategic product extension. Is there also direct demand, rather than only a positioning idea?"
+          },
+          {
+            "speaker": "Team member A",
+            "starts_at_seconds": 874.37366,
+            "timecode": "00:14:34",
+            "text": "Sorry, the connection dropped. Let me repeat the important part. We are seeing larger prospects in our pipeline, and a more complete package could help with those conversations. It is not limited to them, but that is part of the motivation."
+          },
+          {
+            "speaker": "Supplier A",
+            "starts_at_seconds": 1048.4388,
+            "timecode": "00:17:28",
+            "text": "Has management decided to invest in this, or are you still deciding whether the project should exist at all?"
+          },
+          {
+            "speaker": "Team member B",
+            "starts_at_seconds": 1064.0331,
+            "timecode": "00:17:44",
+            "text": "The view is that electronic invoicing will become more common. We want to start preparing before requirements force us into a rushed implementation."
+          },
+          {
+            "speaker": "Team member A",
+            "starts_at_seconds": 1135.0283,
+            "timecode": "00:18:55",
+            "text": "We are aiming for the fourth quarter. We would start with Singapore and Australia, then India. We are hoping one integration lets us expand without building the whole thing again."
+          },
+          {
+            "speaker": "Supplier A",
+            "starts_at_seconds": 1178.8333,
+            "timecode": "00:19:38",
+            "text": "And if that fourth-quarter date slips, what happens internally?"
+          },
+          {
+            "speaker": "Team member B",
+            "starts_at_seconds": 1196.5812,
+            "timecode": "00:19:56",
+            "text": "There are several projects competing for that quarter. Early next year is possible if the work moves. We intend to build the capability, but I would not describe the quarter as an immovable deadline."
+          },
+          {
+            "speaker": "Team member A",
+            "starts_at_seconds": 1277.82,
+            "timecode": "00:21:17",
+            "text": "We have prospects discussing requirements with us and some willingness to pilot once it is available. This will be a new module, so those conversations are still developing."
+          },
+          {
+            "speaker": "Supplier A",
+            "starts_at_seconds": 1327.918,
+            "timecode": "00:22:07",
+            "text": "I will send a volume template: countries, small versus larger customers, invoices issued and invoices received. That will let us calculate a proposal and the likely cost per customer."
+          },
+          {
+            "speaker": "Team member A",
+            "starts_at_seconds": 1407.2921,
+            "timecode": "00:23:27",
+            "text": "Received invoice volumes can be based on current accounts-payable usage. Issued volumes will be estimates because the receivables product is still being built. We should not present those two columns as equally certain."
+          },
+          {
+            "speaker": "Supplier A",
+            "starts_at_seconds": 1533.4471,
+            "timecode": "00:25:33",
+            "text": "On the demonstration, the same invoice object goes through a sequence of steps. Those steps can create a PDF, create the local electronic format and distribute it. Returned documents and status are available through the API. Country-specific requirements still exist, but the intention is to keep most of your integration consistent."
+          },
+          {
+            "speaker": "Team member B",
+            "starts_at_seconds": 1805.6383,
+            "timecode": "00:30:05",
+            "text": "Where do we learn which fields are required in each region before submitting an invoice? That is the part I want to understand beyond the happy-path demonstration."
+          },
+          {
+            "speaker": "Supplier A",
+            "starts_at_seconds": 1824.4725,
+            "timecode": "00:30:24",
+            "text": "The playground exposes local fields, and we help during integration. You register each end customer and keep its returned connection key. That customer identity and country tell us which localisation to apply when you submit the invoice."
+          },
+          {
+            "speaker": "Supplier A",
+            "starts_at_seconds": 1960.5425,
+            "timecode": "00:32:40",
+            "text": "Some countries also require customer-specific credentials. For others our network connection handles that part. The management dashboard lets you inspect setup, invoices and the transition from testing to production."
+          },
+          {
+            "speaker": "Team member B",
+            "starts_at_seconds": 2049.6265,
+            "timecode": "00:34:09",
+            "text": "Can we receive invoices through the network as well, or is this only the issuing side?"
+          },
+          {
+            "speaker": "Supplier A",
+            "starts_at_seconds": 2057.0806,
+            "timecode": "00:34:17",
+            "text": "Receiving is supported too. Enable the relevant incoming channels, then retrieve invoice identifiers and their standardised data using the customer's key. The original documents are available as links. The local document parsing happens on our side."
+          },
+          {
+            "speaker": "Team member B",
+            "starts_at_seconds": 2268.0935,
+            "timecode": "00:37:48",
+            "text": "Will we have a readable PDF preview, or do we need to build one from the raw invoice data ourselves?"
+          },
+          {
+            "speaker": "Supplier A",
+            "starts_at_seconds": 2292.6245,
+            "timecode": "00:38:12",
+            "text": "If a PDF is supplied, we expose it. Otherwise we can generate one. We have also standardised different incoming document formats for customers who want a consistent presentation across countries."
+          },
+          {
+            "speaker": "Supplier A",
+            "starts_at_seconds": 2416.1575,
+            "timecode": "00:40:16",
+            "text": "You can try the sandbox using the documentation and an AI coding assistant. Register for a test key first and include the relevant application context. Let me know how the experiment goes."
+          },
+          {
+            "speaker": "Team member A",
+            "starts_at_seconds": 2517.398,
+            "timecode": "00:41:57",
+            "text": "The product direction looks relevant. Commercially, are we paying for actions, invoice volume, countries, customers, or some combination? We need to understand the structure before taking this further."
+          },
+          {
+            "speaker": "Supplier A",
+            "starts_at_seconds": 2572.8486,
+            "timecode": "00:42:52",
+            "text": "There are two models: country licences with transaction usage, or licences per end customer with included usage and volume tiers. We need your numbers before recommending one."
+          },
+          {
+            "speaker": "Team member A",
+            "starts_at_seconds": 2663.1074,
+            "timecode": "00:44:23",
+            "text": "And the commercial relationship is between SpendNest and LedgerBridge? We are providing this to our customers through our product, rather than asking them to buy from you separately."
+          },
+          {
+            "speaker": "Supplier A",
+            "starts_at_seconds": 2753.3516,
+            "timecode": "00:45:53",
+            "text": "Correct. There is also a one-time setup charge. The basic setup begins at EUR 2,600; a more supported implementation starts at EUR 6,500, and larger projects are scoped separately. The initial setup covers the markets together, rather than charging it again for each expansion."
+          },
+          {
+            "speaker": "Team member A",
+            "starts_at_seconds": 2834.1924,
+            "timecode": "00:47:14",
+            "text": "Could you send the proposal before the commercial call? We need to brief management and decide which stakeholders should attend."
+          },
+          {
+            "speaker": "Supplier A",
+            "starts_at_seconds": 2865.7515,
+            "timecode": "00:47:45",
+            "text": "I prefer walking through the proposal. If people only receive a pricing page, they may miss the value and the differences between the two models."
+          },
+          {
+            "speaker": "Team member A",
+            "starts_at_seconds": 2913.9736,
+            "timecode": "00:48:33",
+            "text": "Our evaluation goes through product fit, the business reason, commercials, then references and support checks. Written pricing helps us follow that process internally. I understand your concern, but we still need to take the numbers back."
+          },
+          {
+            "speaker": "Supplier A",
+            "starts_at_seconds": 3029.969,
+            "timecode": "00:50:29",
+            "text": "Let us have a short explanation call after you complete the template. You can capture the details for your management discussion, and we can decide who needs to join the next conversation."
+          },
+          {
+            "speaker": "Supplier A",
+            "starts_at_seconds": 3084.221,
+            "timecode": "00:51:24",
+            "text": "I will send the template shortly so we can get that started."
+          }
+        ],
+        "unavailable_reason": null
+      }
+    },
+    {
+      "record_ref": "M03",
+      "source_type": "meeting",
+      "source_id": "398672e7-62dd-5afd-846d-0237d49792fb",
+      "payload": {
+        "id": "398672e7-62dd-5afd-846d-0237d49792fb",
+        "title": "Asterloom Systems / SpendNest discussion",
+        "starts_at": "2026-08-21T09:30:00Z",
+        "ends_at": "2026-08-21T10:00:00Z",
+        "duration_seconds": 2958,
+        "provider": "google_meet",
+        "join_url": "https://meet.example.invalid/398672e7-62dd-5afd-846d-0237d49792fb",
+        "organizer_email": "team08@example.com",
+        "attendee_count": 1,
+        "recording_status": "recorded",
+        "recording_detail": null,
+        "recording_id": "d72e775d-851f-55fc-ad23-ad0464ca382c",
+        "has_transcript": true,
+        "has_video": true,
+        "summary": null,
+        "summary_status": "stored",
+        "redacted": true
+      },
+      "transcript_payload": {
+        "meeting_id": "398672e7-62dd-5afd-846d-0237d49792fb",
+        "turns": [
+          {
+            "speaker": "Customer A",
+            "starts_at_seconds": 169.04645,
+            "timecode": "00:02:49",
+            "text": "We spoke a while ago. My finance colleague is joining today because we need to understand how this would actually work, and then revisit the price."
+          },
+          {
+            "speaker": "Team member A",
+            "starts_at_seconds": 263.30264,
+            "timecode": "00:04:23",
+            "text": "SpendNest can handle corporate cards, employee payments and accounting integration. I understand travel and smaller operating expenses are the immediate use case. Before the demonstration, what would you particularly like to see?"
+          },
+          {
+            "speaker": "Customer B",
+            "starts_at_seconds": 364.40955,
+            "timecode": "00:06:04",
+            "text": "Cards first. Our overseas team already has a provider they like. Here we reimburse employees through an existing expense portal with approvals. Show us how introducing your cards fits that process; we are not currently shopping for vendor payments."
+          },
+          {
+            "speaker": "Team member A",
+            "starts_at_seconds": 454.01196,
+            "timecode": "00:07:34",
+            "text": "The domestic cards are prepaid. The business funds a shared wallet, invites employees and sets card limits after identity checks. You can see transactions and receipts in the dashboard."
+          },
+          {
+            "speaker": "Customer B",
+            "starts_at_seconds": 604.3007,
+            "timecode": "00:10:04",
+            "text": "At present employees spend personally and we reimburse them. Monthly spending might be around INR 10–13 lakh, but that needs checking. First we need to establish whether the workflow fits."
+          },
+          {
+            "speaker": "Customer A",
+            "starts_at_seconds": 664.47815,
+            "timecode": "00:11:04",
+            "text": "Wait, these are prepaid? I had thought about a corporate credit card. So we put money in before anyone spends, and there is no credit facility on these domestic cards?"
+          },
+          {
+            "speaker": "Team member A",
+            "starts_at_seconds": 687.026,
+            "timecode": "00:11:27",
+            "text": "That is right for this option. The money is in the company wallet and the card transactions draw against it."
+          },
+          {
+            "speaker": "Customer A",
+            "starts_at_seconds": 712.5195,
+            "timecode": "00:11:52",
+            "text": "If I load INR 6.5 lakh, everyone draws from that pool, subject to the limits we give them? A person travelling more does not need a separate deposit tied to their card?"
+          },
+          {
+            "speaker": "Customer B",
+            "starts_at_seconds": 775.4641,
+            "timecode": "00:12:55",
+            "text": "Please show the expense approval part. I am not asking about approving a card limit. Today an employee submits an expense report, it passes through our approval levels, and only then is it paid. We still need the accounting discipline after issuing cards."
+          },
+          {
+            "speaker": "Team member A",
+            "starts_at_seconds": 845.01196,
+            "timecode": "00:14:05",
+            "text": "With a company card they are no longer paying personally, so there is no reimbursement request unless they have had to pay another way."
+          },
+          {
+            "speaker": "Customer A",
+            "starts_at_seconds": 887.38275,
+            "timecode": "00:14:47",
+            "text": "Yes, but that does not remove our need to review the spending. We do not want to inspect unexplained transactions one at a time. People still need to explain the business purpose and provide evidence."
+          },
+          {
+            "speaker": "Team member A",
+            "starts_at_seconds": 946.17096,
+            "timecode": "00:15:46",
+            "text": "You can require a receipt and a memo. Missing evidence remains visible against the transaction. The employee uploads from the app or web, and the approver can inspect the details."
+          },
+          {
+            "speaker": "Customer B",
+            "starts_at_seconds": 1120.4639,
+            "timecode": "00:18:40",
+            "text": "Take one transaction through the whole flow. The employee spends, uploads the receipt, and then what happens? Does it actually come to someone for approval?"
+          },
+          {
+            "speaker": "Team member A",
+            "starts_at_seconds": 1135.6069,
+            "timecode": "00:18:55",
+            "text": "It appears in the review section. The money has already been spent, but the reviewer can approve or flag the transaction and check the evidence."
+          },
+          {
+            "speaker": "Customer A",
+            "starts_at_seconds": 1207.6876,
+            "timecode": "00:20:07",
+            "text": "That is closer to what we use elsewhere. After that approval, we want the item to reach our accounting system for reconciliation."
+          },
+          {
+            "speaker": "Team member A",
+            "starts_at_seconds": 1300.8143,
+            "timecode": "00:21:40",
+            "text": "You can select transactions and sync them. If you need automatic syncing after approval, that is something we can build. I am showing the current manual selection here; the automatic flow would need that additional work."
+          },
+          {
+            "speaker": "Customer A",
+            "starts_at_seconds": 1404.3799,
+            "timecode": "00:23:24",
+            "text": "Then we should still be able to distinguish recorded spending from spending with completed review. Otherwise we lose visibility into what is outstanding."
+          },
+          {
+            "speaker": "Customer B",
+            "starts_at_seconds": 1499.5862,
+            "timecode": "00:24:59",
+            "text": "And setting a limit does not lock that exact amount away for one employee? Okay, so it is a spending control and the balance stays shared. The funding transfer itself is something we initiate."
+          },
+          {
+            "speaker": "Customer A",
+            "starts_at_seconds": 1621.2118,
+            "timecode": "00:27:01",
+            "text": "We are happy with the existing overseas provider. Virtual cards for a specific team activity have worked well there. I am not asking to replace that arrangement now."
+          },
+          {
+            "speaker": "Team member A",
+            "starts_at_seconds": 1708.9944,
+            "timecode": "00:28:28",
+            "text": "For spending outside India, these domestic cards would not be the solution. There is a separate bank-issued international credit-card route with eligibility requirements. Let us keep that separate from the domestic option we are discussing."
+          },
+          {
+            "speaker": "Customer A",
+            "starts_at_seconds": 1775.7596,
+            "timecode": "00:29:35",
+            "text": "For the domestic option, what is the minimum spend and what does the fee depend on?"
+          },
+          {
+            "speaker": "Team member A",
+            "starts_at_seconds": 1799.1205,
+            "timecode": "00:29:59",
+            "text": "There is no minimum spending requirement. In the first monthly spending band, up to INR 13 lakh, the annual charge for the cards arrangement would be INR 39,000 plus tax."
+          },
+          {
+            "speaker": "Customer A",
+            "starts_at_seconds": 1841.5702,
+            "timecode": "00:30:41",
+            "text": "But you previously told me INR 26,000. Why has that become INR 39,000?"
+          },
+          {
+            "speaker": "Team member A",
+            "starts_at_seconds": 1843.8185,
+            "timecode": "00:30:43",
+            "text": "I included the integration setup in that number. To separate it: INR 26,000 plus tax is the recurring annual subscription, and INR 13,000 is the one-time accounting integration setup."
+          },
+          {
+            "speaker": "Customer A",
+            "starts_at_seconds": 1865.2662,
+            "timecode": "00:31:05",
+            "text": "Okay, I want the proposal to be attractive, including that setup charge. We have been discussing this for a long time and still need to decide whether it is the right tool. My colleague will finish the questions, then we will discuss internally."
+          },
+          {
+            "speaker": "Customer B",
+            "starts_at_seconds": 1937.5404,
+            "timecode": "00:32:17",
+            "text": "We need help now, but would start with perhaps four or five employees. Some people hesitate to personally fund large travel bookings even when reimbursement is quick. We want to see the feedback and workflow before widening usage."
+          },
+          {
+            "speaker": "Team member A",
+            "starts_at_seconds": 2068.4524,
+            "timecode": "00:34:28",
+            "text": "Who else needs to approve this? Would it help to walk them through it as well?"
+          },
+          {
+            "speaker": "Customer B",
+            "starts_at_seconds": 2083.4343,
+            "timecode": "00:34:43",
+            "text": "Our CFO approves the larger payments. We need to explain the proposal to them; that part is still ahead of us."
+          },
+          {
+            "speaker": "Customer B",
+            "starts_at_seconds": 2139.3916,
+            "timecode": "00:35:39",
+            "text": "Most employees will not get a card. Do I then keep the old expense system for the people with one or two occasional claims?"
+          },
+          {
+            "speaker": "Team member A",
+            "starts_at_seconds": 2177.0186,
+            "timecode": "00:36:17",
+            "text": "Those employees could use our reimbursement module. The card and reimbursement users can be on the same platform, though the modules and charges need to be clear."
+          },
+          {
+            "speaker": "Customer B",
+            "starts_at_seconds": 2389.3054,
+            "timecode": "00:39:49",
+            "text": "So reimbursement is an additional module? I want to confirm that ordinary review of a card transaction does not require us to buy reimbursement as well."
+          },
+          {
+            "speaker": "Team member A",
+            "starts_at_seconds": 2442.1045,
+            "timecode": "00:40:42",
+            "text": "Correct. Reviewing the card expense is part of the card workflow. Bank transfers and reimbursements are a separate commercial discussion."
+          },
+          {
+            "speaker": "Customer B",
+            "starts_at_seconds": 2461.5574,
+            "timecode": "00:41:01",
+            "text": "For accounting categories, I do not trust every employee to pick the right code. We would need finance to do that before syncing, rather than relying on employees to get it right."
+          },
+          {
+            "speaker": "Customer B",
+            "starts_at_seconds": 2591.731,
+            "timecode": "00:43:11",
+            "text": "We are a small growing company, roughly 65 employees. Efficiency matters more than a precise budget, but I do not want to disrupt what works. The external team processes vendor payments manually and it is expensive. That might be relevant later. I would have to confirm the volume—perhaps INR 26–39 lakh a month, with rent a large part."
+          },
+          {
+            "speaker": "Team member A",
+            "starts_at_seconds": 2859.9995,
+            "timecode": "00:47:39",
+            "text": "I will send the cards proposal and information about the other modules. Could we arrange a follow-up next week?"
+          },
+          {
+            "speaker": "Customer B",
+            "starts_at_seconds": 2923.9043,
+            "timecode": "00:48:43",
+            "text": "Send the details first. We need time with the CFO and will tell you if another call is needed. Let us make that decision internally before scheduling more."
+          }
+        ],
+        "unavailable_reason": null
+      }
+    },
+    {
+      "record_ref": "M04",
+      "source_type": "meeting",
+      "source_id": "b0f79b3d-37ba-52f9-b2bc-58b159dd6d91",
+      "payload": {
+        "id": "b0f79b3d-37ba-52f9-b2bc-58b159dd6d91",
+        "title": "Cedarwave Distribution / SpendNest discussion",
+        "starts_at": "2026-08-21T09:00:00Z",
+        "ends_at": "2026-08-21T09:30:00Z",
+        "duration_seconds": 1985,
+        "provider": "google_meet",
+        "join_url": "https://meet.example.invalid/b0f79b3d-37ba-52f9-b2bc-58b159dd6d91",
+        "organizer_email": "team09@example.com",
+        "attendee_count": 1,
+        "recording_status": "recorded",
+        "recording_detail": null,
+        "recording_id": "9609caaf-3fef-5c05-9195-08698b318c9d",
+        "has_transcript": true,
+        "has_video": true,
+        "summary": null,
+        "summary_status": "stored",
+        "redacted": true
+      },
+      "transcript_payload": {
+        "meeting_id": "b0f79b3d-37ba-52f9-b2bc-58b159dd6d91",
+        "turns": [
+          {
+            "speaker": "Team member A",
+            "starts_at_seconds": 51.422813,
+            "timecode": "00:00:51",
+            "text": "I wanted to discuss the migration while there is still time to plan it. We should cover the present situation, the next steps and any feedback from your side."
+          },
+          {
+            "speaker": "Team member A",
+            "starts_at_seconds": 90.72081,
+            "timecode": "00:01:30",
+            "text": "Much of your usage is physical-card spending. We have seen acceptance problems with the existing programme and are proposing a move to a different provider and card network. We already operate that alternative programme, including a wallet-payment option."
+          },
+          {
+            "speaker": "Customer A",
+            "starts_at_seconds": 197.5499,
+            "timecode": "00:03:17",
+            "text": "I thought the wallet-payment option was coming to our existing cards too. Is that not what was being discussed?"
+          },
+          {
+            "speaker": "Team member A",
+            "starts_at_seconds": 203.1708,
+            "timecode": "00:03:23",
+            "text": "It is not available on the current network in this arrangement. The programme we are moving to supports it. The plan is to close the old programme in the coming weeks, so we need to organise the transition."
+          },
+          {
+            "speaker": "Customer A",
+            "starts_at_seconds": 273.6032,
+            "timecode": "00:04:33",
+            "text": "Does that mean the current physical cards and virtual cards will both stop working?"
+          },
+          {
+            "speaker": "Team member A",
+            "starts_at_seconds": 278.45682,
+            "timecode": "00:04:38",
+            "text": "Yes, under that programme. Users need to complete identity checks again because the provider changes. We can create the new account in parallel so you do not need to shut the current cards before starting the setup."
+          },
+          {
+            "speaker": "Customer A",
+            "starts_at_seconds": 344.56024,
+            "timecode": "00:05:44",
+            "text": "Before we do all that, there was another problem: connecting this application with our people and expense system. We did not think that integration was possible."
+          },
+          {
+            "speaker": "Team member A",
+            "starts_at_seconds": 367.09482,
+            "timecode": "00:06:07",
+            "text": "We do have integration support. Let us clarify which part you need rather than assume the whole connection is unavailable."
+          },
+          {
+            "speaker": "Customer A",
+            "starts_at_seconds": 372.35223,
+            "timecode": "00:06:12",
+            "text": "Also, will the replacement be a proper credit card? We do not really want another prepaid arrangement indefinitely."
+          },
+          {
+            "speaker": "Team member A",
+            "starts_at_seconds": 381.41483,
+            "timecode": "00:06:21",
+            "text": "The replacement I described is still prepaid. I do not want to promise that this becomes a credit card in the near term."
+          },
+          {
+            "speaker": "Customer A",
+            "starts_at_seconds": 437.49622,
+            "timecode": "00:07:17",
+            "text": "Give me a moment to check internally. Okay, I have confirmed it: moving from prepaid to credit is the main issue for us. At some stage we will have to consider another option for that."
+          },
+          {
+            "speaker": "Team member A",
+            "starts_at_seconds": 596.8395,
+            "timecode": "00:09:56",
+            "text": "My view is that the expense-platform alternatives still depend on banks for credit. Some alternatives are considerably more expensive. We have a bank partnership for corporate credit cards, subject to the bank's assessment. That is different from us changing the prepaid product into credit."
+          },
+          {
+            "speaker": "Customer A",
+            "starts_at_seconds": 742.03595,
+            "timecode": "00:12:22",
+            "text": "We have been trying through our existing bank. Perhaps we get credit cards for around 26 people and keep SpendNest prepaid cards for the others."
+          },
+          {
+            "speaker": "Team member A",
+            "starts_at_seconds": 759.4221,
+            "timecode": "00:12:39",
+            "text": "We passed the earlier enquiry to the bank, but it was put on hold from your side. We can revisit it. The bank has spending and turnover criteria. The software layer can provide transaction visibility, receipts and review if the supported cards are connected."
+          },
+          {
+            "speaker": "Customer A",
+            "starts_at_seconds": 826.074,
+            "timecode": "00:13:46",
+            "text": "To be clear, that bank option would actually be credit, with us paying the bank separately, while the other employees could remain prepaid?"
+          },
+          {
+            "speaker": "Team member A",
+            "starts_at_seconds": 829.0521,
+            "timecode": "00:13:49",
+            "text": "Yes, that is the distinction. Both types could be visible in the same workspace, although the control and funding arrangements are different."
+          },
+          {
+            "speaker": "Customer A",
+            "starts_at_seconds": 894.3586,
+            "timecode": "00:14:54",
+            "text": "Let me bring in someone from our credit team. They know what is already in place and can help decide whether this is worth progressing."
+          },
+          {
+            "speaker": "Customer A",
+            "starts_at_seconds": 1070.516,
+            "timecode": "00:17:50",
+            "text": "We are discussing the planned card migration. The replacement is still prepaid, but there may be a way to connect our bank-issued credit cards to the SpendNest application."
+          },
+          {
+            "speaker": "Team member A",
+            "starts_at_seconds": 1134.2886,
+            "timecode": "00:18:54",
+            "text": "The bank issues and controls the credit. After the relevant agreement and network consent, transaction details can come into our platform after settlement. Users can then attach receipts and send items for review. It is not the same as our real-time prepaid feed."
+          },
+          {
+            "speaker": "Customer A",
+            "starts_at_seconds": 1444.6035,
+            "timecode": "00:24:04",
+            "text": "Can those transactions also sync into our accounting system? That was part of the problem before."
+          },
+          {
+            "speaker": "Team member A",
+            "starts_at_seconds": 1448.5846,
+            "timecode": "00:24:08",
+            "text": "Many transaction fields can sync, but source-balance reconciliation is a question in this setup. I need the team to confirm feasibility for your bank-card transactions rather than say the existing prepaid integration automatically covers it."
+          },
+          {
+            "speaker": "Customer B",
+            "starts_at_seconds": 1472.6356,
+            "timecode": "00:24:32",
+            "text": "We already have a corporate credit line of about INR 1.3 crore. Cards are issued to only a few people so far. We were waiting for the bank administration portal before attempting the accounting integration. If your platform can sit in between, we should understand that route."
+          },
+          {
+            "speaker": "Team member A",
+            "starts_at_seconds": 1544.6288,
+            "timecode": "00:25:44",
+            "text": "I will check whether your already-issued cards can join the transaction-feed programme. If that is possible, the next steps are the agreement, network approval and linking the cards to users. I cannot confirm the existing-card eligibility on this call."
+          },
+          {
+            "speaker": "Customer B",
+            "starts_at_seconds": 1628.8208,
+            "timecode": "00:27:08",
+            "text": "Would it show our available credit limit as well as the transactions? We need to know what is available to spend."
+          },
+          {
+            "speaker": "Team member A",
+            "starts_at_seconds": 1631.7168,
+            "timecode": "00:27:11",
+            "text": "No, the proposed feed shows transaction details after settlement. The bank retains that control, so the available limit would not be shown here in the way it is for cards we issue."
+          },
+          {
+            "speaker": "Customer B",
+            "starts_at_seconds": 1656.8547,
+            "timecode": "00:27:36",
+            "text": "Then what do we gain by adding SpendNest? We can already see transactions in the bank portal."
+          },
+          {
+            "speaker": "Team member A",
+            "starts_at_seconds": 1668.2108,
+            "timecode": "00:27:48",
+            "text": "The additional layer is collecting receipts and business reasons, reviewing exceptions, attaching project information and reconciling alongside prepaid spending. Accounting integration could add value too, but that specific bank-card path still needs checking."
+          },
+          {
+            "speaker": "Team member A",
+            "starts_at_seconds": 1796.8358,
+            "timecode": "00:29:56",
+            "text": "Please discuss the options internally. We can plan a mix of bank credit cards, prepaid cards or wallet payments, depending on your decision. I will confirm the eligibility and accounting questions with the programme team."
+          },
+          {
+            "speaker": "Customer A",
+            "starts_at_seconds": 1885.1982,
+            "timecode": "00:31:25",
+            "text": "We will speak with the relevant people internally and see whether this is the direction we want. We are not deciding the whole migration on this call."
+          },
+          {
+            "speaker": "Customer A",
+            "starts_at_seconds": 1908.7112,
+            "timecode": "00:31:48",
+            "text": "There is also the earlier issue with moving users between departments. The current department setup has become confusing and needs correcting."
+          },
+          {
+            "speaker": "Team member A",
+            "starts_at_seconds": 1928.7112,
+            "timecode": "00:32:08",
+            "text": "I cannot move those users directly from the assistant view available to me. We can arrange a session to guide you through it and verify which departments and users should move before changing anything."
+          },
+          {
+            "speaker": "Customer A",
+            "starts_at_seconds": 1965.7316,
+            "timecode": "00:32:45",
+            "text": "Okay. I will come back to you on that as well."
+          }
+        ],
+        "unavailable_reason": null
+      }
+    },
+    {
+      "record_ref": "M05",
+      "source_type": "meeting",
+      "source_id": "e0ecb112-ed94-5e8e-ae71-19def5536337",
+      "payload": {
+        "id": "e0ecb112-ed94-5e8e-ae71-19def5536337",
+        "title": "SpendNest setup - Pinehaven Studio",
+        "starts_at": "2026-08-21T06:30:00Z",
+        "ends_at": "2026-08-21T07:00:00Z",
+        "duration_seconds": 987,
+        "provider": "google_meet",
+        "join_url": "https://meet.example.invalid/e0ecb112-ed94-5e8e-ae71-19def5536337",
+        "organizer_email": "team08@example.com",
+        "attendee_count": 1,
+        "recording_status": "recorded",
+        "recording_detail": null,
+        "recording_id": "6f7c8625-938a-5d80-9320-48fadd06b6fd",
+        "has_transcript": true,
+        "has_video": true,
+        "summary": null,
+        "summary_status": "stored",
+        "redacted": true
+      },
+      "transcript_payload": {
+        "meeting_id": "e0ecb112-ed94-5e8e-ae71-19def5536337",
+        "turns": [],
+        "unavailable_reason": "The meeting was recorded but nobody spoke."
+      }
+    },
+    {
+      "record_ref": "M06",
+      "source_type": "meeting",
+      "source_id": "657b9e9d-9472-5b01-a127-a648ad7e8cf7",
+      "payload": {
+        "id": "657b9e9d-9472-5b01-a127-a648ad7e8cf7",
+        "title": "Mapletrail Services / SpendNest discussion",
+        "starts_at": "2026-08-21T06:30:00Z",
+        "ends_at": "2026-08-21T07:00:00Z",
+        "duration_seconds": 2197,
+        "provider": "google_meet",
+        "join_url": "https://meet.example.invalid/657b9e9d-9472-5b01-a127-a648ad7e8cf7",
+        "organizer_email": "team10@example.com",
+        "attendee_count": 1,
+        "recording_status": "recorded",
+        "recording_detail": null,
+        "recording_id": "2e377ea4-e721-56c7-900b-5a796adaafa4",
+        "has_transcript": true,
+        "has_video": true,
+        "summary": null,
+        "summary_status": "pending",
+        "redacted": true
+      },
+      "transcript_payload": {
+        "meeting_id": "657b9e9d-9472-5b01-a127-a648ad7e8cf7",
+        "turns": [
+          {
+            "speaker": "Team member A",
+            "starts_at_seconds": 146.89867,
+            "timecode": "00:02:26",
+            "text": "Good to speak after connecting professionally. I work on finance at SpendNest, and part of my interest is how finance teams spend their time. We have expense workflows and are also working on receivables automation. I would like to understand your role before jumping into the product."
+          },
+          {
+            "speaker": "Customer A",
+            "starts_at_seconds": 287.17508,
+            "timecode": "00:04:47",
+            "text": "I handle finance for one branch of Mapletrail Services. We do software development and testing. The main office supports me, but locally I cover a broad set of tasks rather than having a separate team for each function."
+          },
+          {
+            "speaker": "Team member A",
+            "starts_at_seconds": 343.8236,
+            "timecode": "00:05:43",
+            "text": "How large is finance at the main office? Is that a team you work with daily?"
+          },
+          {
+            "speaker": "Customer A",
+            "starts_at_seconds": 347.6251,
+            "timecode": "00:05:47",
+            "text": "Roughly 65 people across finance. The business is sizeable, but locally I am the person dealing with the operational questions and getting support from them."
+          },
+          {
+            "speaker": "Team member A",
+            "starts_at_seconds": 366.55164,
+            "timecode": "00:06:06",
+            "text": "Are there plans to add people in your branch, or is the present setup expected to continue?"
+          },
+          {
+            "speaker": "Customer A",
+            "starts_at_seconds": 371.4911,
+            "timecode": "00:06:11",
+            "text": "No expansion planned at the moment. Most operations sit centrally. I look after local payables, receivables, revenue and compliance-related work."
+          },
+          {
+            "speaker": "Customer A",
+            "starts_at_seconds": 581.9404,
+            "timecode": "00:09:41",
+            "text": "For supplier payments there is a dedicated team. They manage the purchase-order-to-payment process through our ERP and bank connections. Different people cover payables, receivables and compliance."
+          },
+          {
+            "speaker": "Team member A",
+            "starts_at_seconds": 667.35376,
+            "timecode": "00:11:07",
+            "text": "On receivables, how many invoices do you personally handle, and what happens between preparing one and getting paid?"
+          },
+          {
+            "speaker": "Customer A",
+            "starts_at_seconds": 677.0151,
+            "timecode": "00:11:17",
+            "text": "I cover around eight clients. I speak to delivery managers about what was delivered, check the contract and resource rates, prepare the invoice and get confirmation. Then we send it to the client. Depending on the contract there may be 15- or 30-day terms before the collection follow-up starts."
+          },
+          {
+            "speaker": "Customer A",
+            "starts_at_seconds": 744.4531,
+            "timecode": "00:12:24",
+            "text": "When something remains unpaid, the collections team comes back to the delivery manager or to whoever issued it. One expense-recovery invoice has been outstanding for months even though the same client pays the normal service invoices. We still need the delivery manager to establish why that particular item is held up."
+          },
+          {
+            "speaker": "Team member A",
+            "starts_at_seconds": 810.13513,
+            "timecode": "00:13:30",
+            "text": "Across the company, roughly how many invoices are we talking about? I mean both the count and the value, if you have an estimate."
+          },
+          {
+            "speaker": "Customer A",
+            "starts_at_seconds": 837.23914,
+            "timecode": "00:13:57",
+            "text": "Around 65–78 customers. There may be several projects for each. Initially I would estimate 260–390 invoices a month, with a large total value."
+          },
+          {
+            "speaker": "Team member A",
+            "starts_at_seconds": 874.2348,
+            "timecode": "00:14:34",
+            "text": "Sorry, I may have mixed up the value and count. Were you saying only a few invoices for all that revenue, or several invoices for each customer each month?"
+          },
+          {
+            "speaker": "Customer A",
+            "starts_at_seconds": 885.603,
+            "timecode": "00:14:45",
+            "text": "Several for each customer, each month. I was not saying that the entire company only sends a handful of invoices."
+          },
+          {
+            "speaker": "Team member A",
+            "starts_at_seconds": 904.20483,
+            "timecode": "00:15:04",
+            "text": "So perhaps nearer 390–520 a month overall?"
+          },
+          {
+            "speaker": "Customer A",
+            "starts_at_seconds": 909.21704,
+            "timecode": "00:15:09",
+            "text": "Approximately. The value is the bigger point, and many are in foreign currency. These are rough numbers in this conversation, not a report I have open."
+          },
+          {
+            "speaker": "Team member A",
+            "starts_at_seconds": 926.5648,
+            "timecode": "00:15:26",
+            "text": "It sounds like the manual work is reviewing the contract, checking with delivery and repeatedly following up with the customer. That is the part our collection automation is intended to help with."
+          },
+          {
+            "speaker": "Team member A",
+            "starts_at_seconds": 978.3748,
+            "timecode": "00:16:18",
+            "text": "The approach would first understand your process and connect to the relevant systems. The agent would use invoice records, previous emails and the relationship context when preparing a follow-up. It should not just send the same reminder to everyone regardless of the last discussion."
+          },
+          {
+            "speaker": "Team member A",
+            "starts_at_seconds": 1089.9248,
+            "timecode": "00:18:09",
+            "text": "Different customers use different communication channels and escalation contacts. We would define that sequence with you: who to contact first, how long to wait, and who receives an escalation if there is no response."
+          },
+          {
+            "speaker": "Customer A",
+            "starts_at_seconds": 1152.1064,
+            "timecode": "00:19:12",
+            "text": "Yes, I follow. That exception would need someone to look at it."
+          },
+          {
+            "speaker": "Team member A",
+            "starts_at_seconds": 1152.1248,
+            "timecode": "00:19:12",
+            "text": "That should become an exception for a person to review. The agent could point to the relevant contract terms and explain the disputed point. The idea is to put focused actions in front of finance, while also showing expected collections. Those are capabilities we would configure around the process, not a reason to remove human judgment."
+          },
+          {
+            "speaker": "Team member A",
+            "starts_at_seconds": 1279.9209,
+            "timecode": "00:21:19",
+            "text": "Cash application is another area. For example, if an invoice is INR 1.3 lakh and the payment is INR 1.17 lakh, the difference could be withholding, bank fees or an unresolved dispute. Matching the receipt is not enough; the team needs to know why the difference exists."
+          },
+          {
+            "speaker": "Customer A",
+            "starts_at_seconds": 1368.7019,
+            "timecode": "00:22:48",
+            "text": "So the repetitive work goes to the system, with the final judgment still coming back to finance?"
+          },
+          {
+            "speaker": "Team member A",
+            "starts_at_seconds": 1375.3228,
+            "timecode": "00:22:55",
+            "text": "Exactly. Do you see scope for that in the current process at Mapletrail Services?"
+          },
+          {
+            "speaker": "Customer A",
+            "starts_at_seconds": 1387.4939,
+            "timecode": "00:23:07",
+            "text": "At present people still track contract terms and bank receipts manually. Automation could save time, especially when we have to wait for one contact and then follow up through another. But the dedicated central team handles much of this today."
+          },
+          {
+            "speaker": "Team member A",
+            "starts_at_seconds": 1490.2441,
+            "timecode": "00:24:50",
+            "text": "That is the goal: give finance time to analyse and make decisions rather than spending everything on chasing and checking. We would need to understand the actual workflow in more detail."
+          },
+          {
+            "speaker": "Team member A",
+            "starts_at_seconds": 1547.6621,
+            "timecode": "00:25:47",
+            "text": "We also have the expense side: cards with limits, department budgets and merchant controls, along with supplier payments and reimbursements. A virtual card can be restricted to the particular subscription or purpose for which it was issued."
+          },
+          {
+            "speaker": "Team member A",
+            "starts_at_seconds": 1687.9208,
+            "timecode": "00:28:07",
+            "text": "Those cards use a shared funded wallet. Receipts and memos remain attached to transactions, and accounting fields can be mapped before syncing. That gives a record of who did what and the supporting documents, rather than only a bank entry."
+          },
+          {
+            "speaker": "Team member A",
+            "starts_at_seconds": 1799.2211,
+            "timecode": "00:29:59",
+            "text": "For payables, invoices can be captured from uploaded documents or an inbox and go through approval levels. The exact integration and payment flow would need to fit the systems you already use. I can send material about both this and the receivables side."
+          },
+          {
+            "speaker": "Team member A",
+            "starts_at_seconds": 2020.0251,
+            "timecode": "00:33:40",
+            "text": "After reviewing it, I would be interested in your view on what is useful for your company. Is there anything else you want to clarify today?"
+          },
+          {
+            "speaker": "Customer A",
+            "starts_at_seconds": 2067.7349,
+            "timecode": "00:34:27",
+            "text": "Confidentiality is important. Payment information is sensitive. How is that protected, and is there a risk of somebody interfering with it?"
+          },
+          {
+            "speaker": "Team member A",
+            "starts_at_seconds": 2083.3718,
+            "timecode": "00:34:43",
+            "text": "We have security and compliance controls and certifications around the platform. I understand why you ask; the information is sensitive. I can share the material on our setup as part of the follow-up."
+          },
+          {
+            "speaker": "Customer A",
+            "starts_at_seconds": 2133.226,
+            "timecode": "00:35:33",
+            "text": "It has been useful hearing a different perspective. Please send the information and we can stay in touch."
+          }
+        ],
+        "unavailable_reason": null
+      }
+    },
+    {
+      "record_ref": "M07",
+      "source_type": "meeting",
+      "source_id": "4f304fff-fd40-5cfc-a366-0a134c445c2a",
+      "payload": {
+        "id": "4f304fff-fd40-5cfc-a366-0a134c445c2a",
+        "title": "Willowfield Trust / SpendNest discussion",
+        "starts_at": "2026-08-21T05:30:00Z",
+        "ends_at": "2026-08-21T06:30:00Z",
+        "duration_seconds": 1236,
+        "provider": "google_meet",
+        "join_url": "https://meet.example.invalid/4f304fff-fd40-5cfc-a366-0a134c445c2a",
+        "organizer_email": "team09@example.com",
+        "attendee_count": 1,
+        "recording_status": "recorded",
+        "recording_detail": null,
+        "recording_id": "e4a51f57-1dde-5345-bb2e-e10e1d52cfb6",
+        "has_transcript": true,
+        "has_video": true,
+        "summary": null,
+        "summary_status": "stored",
+        "redacted": true
+      },
+      "transcript_payload": {
+        "meeting_id": "4f304fff-fd40-5cfc-a366-0a134c445c2a",
+        "turns": [],
+        "unavailable_reason": "Transcript not included in this delivery; a later assessment batch supplies it."
+      }
+    },
+    {
+      "record_ref": "M08",
+      "source_type": "meeting",
+      "source_id": "883182d8-eb86-56f9-a928-152365998d15",
+      "payload": {
+        "id": "883182d8-eb86-56f9-a928-152365998d15",
+        "title": "SpendNest product demonstration - Amberleaf Health",
+        "starts_at": "2026-08-21T04:30:00Z",
+        "ends_at": "2026-08-21T05:00:00Z",
+        "duration_seconds": 984,
+        "provider": "google_meet",
+        "join_url": "https://meet.example.invalid/883182d8-eb86-56f9-a928-152365998d15",
+        "organizer_email": "team08@example.com",
+        "attendee_count": 1,
+        "recording_status": "recorded",
+        "recording_detail": null,
+        "recording_id": "3c46437d-4dc1-5d59-ac37-03c0179aaff0",
+        "has_transcript": true,
+        "has_video": true,
+        "summary": null,
+        "summary_status": "stored",
+        "redacted": true
+      },
+      "transcript_payload": {
+        "meeting_id": "883182d8-eb86-56f9-a928-152365998d15",
+        "turns": [],
+        "unavailable_reason": "The meeting was recorded but nobody spoke."
+      }
+    },
+    {
+      "record_ref": "M09",
+      "source_type": "meeting",
+      "source_id": "4b5b9192-f3fc-505a-8e77-4d2ffaa54594",
+      "payload": {
+        "id": "4b5b9192-f3fc-505a-8e77-4d2ffaa54594",
+        "title": "Account setup and workflow discussion",
+        "starts_at": "2026-08-21T04:30:00Z",
+        "ends_at": "2026-08-21T05:00:00Z",
+        "duration_seconds": 1205,
+        "provider": "google_meet",
+        "join_url": "https://meet.example.invalid/4b5b9192-f3fc-505a-8e77-4d2ffaa54594",
+        "organizer_email": "team11@example.com",
+        "attendee_count": 1,
+        "recording_status": "recorded",
+        "recording_detail": null,
+        "recording_id": "ea869e0f-2443-54cc-819d-d2e00d6b3cd7",
+        "has_transcript": true,
+        "has_video": true,
+        "summary": null,
+        "summary_status": "stored",
+        "redacted": true
+      },
+      "transcript_payload": {
+        "meeting_id": "4b5b9192-f3fc-505a-8e77-4d2ffaa54594",
+        "turns": [
+          {
+            "speaker": "Customer A",
+            "starts_at_seconds": 113.12079,
+            "timecode": "00:01:53",
+            "text": "I finally have time to return to the account setup. The invitation for Brookmint Holdings did not work when I tried it. It may have expired, or perhaps we can try again together."
+          },
+          {
+            "speaker": "Team member A",
+            "starts_at_seconds": 158.55609,
+            "timecode": "00:02:38",
+            "text": "There are two things to cover: getting you into Brookmint Holdings and the accounting issue you reported for Northkite Equipment. Our records show the invitation was sent, but acceptance is not recorded."
+          },
+          {
+            "speaker": "Customer A",
+            "starts_at_seconds": 204.63278,
+            "timecode": "00:03:24",
+            "text": "I cannot find the old message in this thread. A fresh link in the conversation we are using now would be easier; the original email is lost among the others."
+          },
+          {
+            "speaker": "Team member A",
+            "starts_at_seconds": 254.63608,
+            "timecode": "00:04:14",
+            "text": "I have sent a new reset invitation. Let me know when you receive it so we can see exactly what happens."
+          },
+          {
+            "speaker": "Customer A",
+            "starts_at_seconds": 286.19278,
+            "timecode": "00:04:46",
+            "text": "With two company accounts, can I switch between them? I also need to understand which login belongs to which company."
+          },
+          {
+            "speaker": "Team member A",
+            "starts_at_seconds": 302.36942,
+            "timecode": "00:05:02",
+            "text": "My understanding was that the original trial included spending for both companies. Is that correct?"
+          },
+          {
+            "speaker": "Customer A",
+            "starts_at_seconds": 319.94562,
+            "timecode": "00:05:19",
+            "text": "No, only Northkite Equipment used the trial. There was no Brookmint Holdings spending in that period."
+          },
+          {
+            "speaker": "Team member A",
+            "starts_at_seconds": 327.69742,
+            "timecode": "00:05:27",
+            "text": "Thank you for correcting that. Going forward, each company's activity belongs in its own account. The current setup uses different email identities for those accounts."
+          },
+          {
+            "speaker": "Customer A",
+            "starts_at_seconds": 365.44025,
+            "timecode": "00:06:05",
+            "text": "What happens when I eventually leave? A shared accounts mailbox would stay with the company, whereas my personal work address would not. I am thinking about continuity."
+          },
+          {
+            "speaker": "Team member A",
+            "starts_at_seconds": 405.12012,
+            "timecode": "00:06:45",
+            "text": "One option is to add the shared accounts address as an administrator. When you leave, your personal access can be removed and that administrator remains."
+          },
+          {
+            "speaker": "Customer A",
+            "starts_at_seconds": 448.81226,
+            "timecode": "00:07:28",
+            "text": "But the accounts-payable officer can read that shared mailbox. Would that give that person the same administrator rights as me?"
+          },
+          {
+            "speaker": "Team member A",
+            "starts_at_seconds": 463.22278,
+            "timecode": "00:07:43",
+            "text": "If the shared address is configured as an administrator and they can use it, yes, it would have those rights."
+          },
+          {
+            "speaker": "Customer A",
+            "starts_at_seconds": 477.77298,
+            "timecode": "00:07:57",
+            "text": "That is what I do not want. Would we need a different address to prevent it?"
+          },
+          {
+            "speaker": "Team member A",
+            "starts_at_seconds": 484.87878,
+            "timecode": "00:08:04",
+            "text": "A different address is one option. We also have member and accounting roles, plus configurable permissions, so the shared login could have a narrower role instead of administrator access."
+          },
+          {
+            "speaker": "Customer A",
+            "starts_at_seconds": 574.1064,
+            "timecode": "00:09:34",
+            "text": "The accounts-payable officer already has an individual login. My concern is that they also have access to the shared mailbox, so their individual role does not stop them using the other identity."
+          },
+          {
+            "speaker": "Team member A",
+            "starts_at_seconds": 621.406,
+            "timecode": "00:10:21",
+            "text": "Understood. If the mailbox remains available to them, an instruction not to use that administrator login would rely on trust. You would need to decide internally how the access is set up."
+          },
+          {
+            "speaker": "Customer A",
+            "starts_at_seconds": 683.5025,
+            "timecode": "00:11:23",
+            "text": "I do not want this to depend on trusting someone not to use access that is available. That does not solve the permission problem."
+          },
+          {
+            "speaker": "Team member A",
+            "starts_at_seconds": 694.58203,
+            "timecode": "00:11:34",
+            "text": "Then a separate administrator email, or changing the shared account's permissions, is the better route to explore. A future manager can be added and your access removed when responsibility changes."
+          },
+          {
+            "speaker": "Customer A",
+            "starts_at_seconds": 721.2626,
+            "timecode": "00:12:01",
+            "text": "I think separate personal work identities for the two companies may be better. Then I can hand over to another manager later. Okay, the reset email has now arrived."
+          },
+          {
+            "speaker": "Team member A",
+            "starts_at_seconds": 772.1193,
+            "timecode": "00:12:52",
+            "text": "Share the screen while you try it. The link should let you set a password and then log in with that new password."
+          },
+          {
+            "speaker": "Customer A",
+            "starts_at_seconds": 834.6679,
+            "timecode": "00:13:54",
+            "text": "It says the token has expired. This is the fresh message we just received."
+          },
+          {
+            "speaker": "Team member A",
+            "starts_at_seconds": 837.2006,
+            "timecode": "00:13:57",
+            "text": "I need to check that with the team. I hope to update you today, or by Monday at the latest. We have not got the Brookmint Holdings login working yet."
+          },
+          {
+            "speaker": "Customer A",
+            "starts_at_seconds": 856.8006,
+            "timecode": "00:14:16",
+            "text": "For Northkite Equipment, I managed to undo the accounting change and correct the tax treatment myself. But I have some other workflow questions, and I should probably revisit the training material."
+          },
+          {
+            "speaker": "Customer A",
+            "starts_at_seconds": 918.9786,
+            "timecode": "00:15:18",
+            "text": "Only a few people use Northkite Equipment, so the traffic is small. Brookmint Holdings has most of the employees. Before that becomes busy, I need to answer their questions properly instead of finding my way through each screen."
+          },
+          {
+            "speaker": "Team member A",
+            "starts_at_seconds": 955.8193,
+            "timecode": "00:15:55",
+            "text": "We can arrange a refresher for you or the other administrators, or you can send the specific questions to me. Let us look at the current example."
+          },
+          {
+            "speaker": "Customer A",
+            "starts_at_seconds": 981.5282,
+            "timecode": "00:16:21",
+            "text": "This transaction has no receipt, but the employee says the invoice was entered and saved. They also said they do not have permission to create a supplier in the accounting tool. I am not sure which step they actually completed."
+          },
+          {
+            "speaker": "Team member A",
+            "starts_at_seconds": 1022.19135,
+            "timecode": "00:17:02",
+            "text": "Open the transaction itself so we can inspect the attachment. I cannot see a receipt on this item yet. You can upload it here and add another document using the additional-attachment option."
+          },
+          {
+            "speaker": "Customer A",
+            "starts_at_seconds": 1072.5103,
+            "timecode": "00:17:52",
+            "text": "I only have the document in email. I need to save it locally before attaching it. Can I also add the purchase order afterwards?"
+          },
+          {
+            "speaker": "Team member A",
+            "starts_at_seconds": 1081.6714,
+            "timecode": "00:18:01",
+            "text": "The transaction is approved now, but syncing is still a separate step. If you need another attachment before syncing, you can undo the verification, attach it and review it again."
+          },
+          {
+            "speaker": "Customer A",
+            "starts_at_seconds": 1136.6282,
+            "timecode": "00:18:56",
+            "text": "Okay. I will look through the videos before arranging another session. I will also wait for the update on the login issue."
+          },
+          {
+            "speaker": "Team member A",
+            "starts_at_seconds": 1163.37,
+            "timecode": "00:19:23",
+            "text": "I will check the expired-token problem for Brookmint Holdings with the team and aim to return with an update today, otherwise Monday."
+          },
+          {
+            "speaker": "Customer A",
+            "starts_at_seconds": 1184.2604,
+            "timecode": "00:19:44",
+            "text": "I will speak to our IT team about the separate email identities. Thank you."
+          }
+        ],
+        "unavailable_reason": null
+      }
+    },
+    {
+      "record_ref": "M10",
+      "source_type": "meeting",
+      "source_id": "337f297d-9385-5b82-9e54-5019c1ed912c",
+      "payload": {
+        "id": "337f297d-9385-5b82-9e54-5019c1ed912c",
+        "title": "Billing workflow walkthrough",
+        "starts_at": "2026-08-21T07:30:00Z",
+        "ends_at": "2026-08-21T08:35:00Z",
+        "duration_seconds": 1428,
+        "provider": "google_meet",
+        "join_url": "https://meet.example.invalid/337f297d-9385-5b82-9e54-5019c1ed912c",
+        "organizer_email": "team12@example.com",
+        "attendee_count": 3,
+        "recording_status": "recorded",
+        "recording_detail": null,
+        "recording_id": "46c24775-b8c1-5dff-b300-a17b9243ad79",
+        "has_transcript": true,
+        "has_video": true,
+        "summary": null,
+        "summary_status": "stored",
+        "redacted": true
+      },
+      "transcript_payload": {
+        "meeting_id": "337f297d-9385-5b82-9e54-5019c1ed912c",
+        "turns": [
+          {
+            "speaker": "Team member A",
+            "starts_at_seconds": 65.40305,
+            "timecode": "00:01:05",
+            "text": "I am finishing another call. Give me a couple of minutes and I will be back for the session."
+          },
+          {
+            "speaker": "Team member B",
+            "starts_at_seconds": 120.426125,
+            "timecode": "00:02:00",
+            "text": "I do not think the optional attendee is joining. We can wait for the trainer to return."
+          },
+          {
+            "speaker": "Team member A",
+            "starts_at_seconds": 304.098,
+            "timecode": "00:05:04",
+            "text": "Yesterday we covered the subscription side of billing. Any questions before I show the remaining part, how invoices are generated and cleared?"
+          },
+          {
+            "speaker": "Team member B",
+            "starts_at_seconds": 316.09,
+            "timecode": "00:05:16",
+            "text": "I have access to a demo account as an administrator, but I do not have the back-office super-admin access you mentioned."
+          },
+          {
+            "speaker": "Team member A",
+            "starts_at_seconds": 344.65,
+            "timecode": "00:05:44",
+            "text": "Okay. That is a different application. Operations uses it to create accounts, control enabled features and manage billing. I will show what it looks like, rather than ask you to create an invoice yourself."
+          },
+          {
+            "speaker": "Team member A",
+            "starts_at_seconds": 397.75598,
+            "timecode": "00:06:37",
+            "text": "Remember the subscription can include fixed, variable and one-time components. There may also be usage charges. When a customer chooses a plan, operations creates the invoice with the customer and plan details."
+          },
+          {
+            "speaker": "Team member A",
+            "starts_at_seconds": 436.912,
+            "timecode": "00:07:16",
+            "text": "The nominal due period is seven days, but we sometimes give the customer until the end of the month. When you report payments, an invoice dated in an earlier month might have been cleared later, so check the dates rather than assuming they match."
+          },
+          {
+            "speaker": "Team member A",
+            "starts_at_seconds": 520.69995,
+            "timecode": "00:08:40",
+            "text": "There is a further exception for invoices raised in the last week of the month: the customer may be allowed until the middle of the next month. If that period is exceeded, we may void and reissue. The displayed due date and the allowed collection period are not always the same thing."
+          },
+          {
+            "speaker": "Team member C",
+            "starts_at_seconds": 593.9626,
+            "timecode": "00:09:53",
+            "text": "Understood. That explains why the invoice month alone does not tell us when the cash arrived."
+          },
+          {
+            "speaker": "Team member A",
+            "starts_at_seconds": 596.86,
+            "timecode": "00:09:56",
+            "text": "You can add a one-time customisation line as well as the subscription. If only half is being collected upfront, the invoice should describe that instalment instead of making it look like the whole charge."
+          },
+          {
+            "speaker": "Team member A",
+            "starts_at_seconds": 641.01,
+            "timecode": "00:10:41",
+            "text": "The tax presentation can be one integrated line or split components depending on the entity information. The demonstration changes when I update that field. This is part of the configuration the operations team needs to get right."
+          },
+          {
+            "speaker": "Team member A",
+            "starts_at_seconds": 787.86194,
+            "timecode": "00:13:07",
+            "text": "After the first payment, we configure the billing cycle for the account. Monthly, quarterly and annual customers do not all receive the same subscription charge every month."
+          },
+          {
+            "speaker": "Team member A",
+            "starts_at_seconds": 902.89197,
+            "timecode": "00:15:02",
+            "text": "You will also see zero-value invoices. If a periodic invoice has no subscription charge due and no extra usage component, its value can be zero. That is not automatically a missing payment."
+          },
+          {
+            "speaker": "Team member A",
+            "starts_at_seconds": 948.33203,
+            "timecode": "00:15:48",
+            "text": "For the automated engine, invoice generation is at midnight in the customer's local time, with a later scheduled attempt to deduct the balance. Manual invoices are separate. There is a gap between generating an invoice and clearing it."
+          },
+          {
+            "speaker": "Team member A",
+            "starts_at_seconds": 948.33203,
+            "timecode": "00:15:48",
+            "text": "Suppose the invoice is INR 6,240 but the wallet contains INR 6,110. The deduction fails and a notification goes out. The system tries three times. Adding money afterwards does not mean it was available when that earlier attempt happened."
+          },
+          {
+            "speaker": "Team member A",
+            "starts_at_seconds": 1144.893,
+            "timecode": "00:19:04",
+            "text": "On the third day it tries again, but spending may have reduced the wallet balance. The next attempt can fail too. It repeats on the seventh day, now with a warning that another failure will freeze the account. The account manager receives the notices and can follow up before that point."
+          },
+          {
+            "speaker": "Team member A",
+            "starts_at_seconds": 1224.2269,
+            "timecode": "00:20:24",
+            "text": "On the tenth day, if there is enough money, the invoice clears and the next billing date moves forward. If it still fails, payments and cards can be blocked, and the billing date stays stuck. Simply topping up a frozen account does not complete the whole recovery flow in this process."
+          },
+          {
+            "speaker": "Team member A",
+            "starts_at_seconds": 1224.2269,
+            "timecode": "00:20:24",
+            "text": "The customer must tell us, then operations clears the outstanding invoice and unfreezes the account. Operations also needs to adjust the next billing date manually. Clearing the payment without checking that date can leave the next cycle wrong."
+          },
+          {
+            "speaker": "Team member B",
+            "starts_at_seconds": 1364.9149,
+            "timecode": "00:22:44",
+            "text": "No further question from me on that part."
+          },
+          {
+            "speaker": "Team member A",
+            "starts_at_seconds": 1366.467,
+            "timecode": "00:22:46",
+            "text": "I will request the back-office access separately for the next training session. If questions come up when you review the billing examples, send them over and we will take them up."
+          }
+        ],
+        "unavailable_reason": null
+      }
+    },
+    {
+      "record_ref": "M11",
+      "source_type": "meeting",
+      "source_id": "fc651475-187c-5882-a644-b501408e8647",
+      "payload": {
+        "id": "fc651475-187c-5882-a644-b501408e8647",
+        "title": "Internal design discussion",
+        "starts_at": "2026-08-21T11:30:00Z",
+        "ends_at": "2026-08-21T12:30:00Z",
+        "duration_seconds": 194,
+        "provider": "google_meet",
+        "join_url": "https://meet.example.invalid/fc651475-187c-5882-a644-b501408e8647",
+        "organizer_email": "team13@example.com",
+        "attendee_count": 1,
+        "recording_status": "recorded",
+        "recording_detail": null,
+        "recording_id": "ac65ee6e-a1a5-5827-9320-b1c0c7cd002c",
+        "has_transcript": true,
+        "has_video": true,
+        "summary": null,
+        "summary_status": "stored",
+        "redacted": true
+      },
+      "transcript_payload": {
+        "meeting_id": "fc651475-187c-5882-a644-b501408e8647",
+        "turns": [],
+        "unavailable_reason": "The meeting was recorded but nobody spoke."
+      }
+    },
+    {
+      "record_ref": "M12",
+      "source_type": "meeting",
+      "source_id": "c759b921-e9d3-540c-a06b-474c5710342d",
+      "payload": {
+        "id": "c759b921-e9d3-540c-a06b-474c5710342d",
+        "title": "SpendNest setup - Sample account",
+        "starts_at": "2026-08-21T14:30:00Z",
+        "ends_at": "2026-08-21T15:00:00Z",
+        "duration_seconds": 1800,
+        "provider": "google_meet",
+        "join_url": "https://meet.example.invalid/c759b921-e9d3-540c-a06b-474c5710342d",
+        "organizer_email": "arun@example.com",
+        "attendee_count": 1,
+        "recording_status": "cancelled",
+        "recording_detail": "The notetaker was cancelled before the meeting started.",
+        "recording_id": null,
+        "has_transcript": false,
+        "has_video": false,
+        "summary": null,
+        "summary_status": null,
+        "redacted": true
+      },
+      "transcript_payload": {
+        "meeting_id": "c759b921-e9d3-540c-a06b-474c5710342d",
+        "turns": [],
+        "unavailable_reason": "The notetaker was cancelled before the meeting started."
+      }
+    },
+    {
+      "record_ref": "M13",
+      "source_type": "meeting",
+      "source_id": "794a9d1c-889d-5957-873f-8a1271b03455",
+      "payload": {
+        "id": "794a9d1c-889d-5957-873f-8a1271b03455",
+        "title": "SpendNest <> Cedarwave Distribution - Migration discussion",
+        "starts_at": "2026-08-21T08:30:00Z",
+        "ends_at": "2026-08-21T09:30:00Z",
+        "duration_seconds": 3600,
+        "provider": "google_meet",
+        "join_url": "https://meet.example.invalid/794a9d1c-889d-5957-873f-8a1271b03455",
+        "organizer_email": "team09@example.com",
+        "attendee_count": 1,
+        "recording_status": "not_scheduled",
+        "recording_detail": "No notetaker was ever scheduled for this meeting.",
+        "recording_id": null,
+        "has_transcript": false,
+        "has_video": false,
+        "summary": null,
+        "summary_status": null,
+        "redacted": true
+      },
+      "transcript_payload": {
+        "meeting_id": "794a9d1c-889d-5957-873f-8a1271b03455",
+        "turns": [],
+        "unavailable_reason": "No notetaker was ever scheduled for this meeting."
+      }
+    },
+    {
+      "record_ref": "M14",
+      "source_type": "meeting",
+      "source_id": "93f4867d-65cd-5236-bc55-7bd57df8ac24",
+      "payload": {
+        "id": "93f4867d-65cd-5236-bc55-7bd57df8ac24",
+        "title": "CRM demonstration",
+        "starts_at": "2026-08-21T07:30:00Z",
+        "ends_at": "2026-08-21T08:30:00Z",
+        "duration_seconds": 3600,
+        "provider": "google_meet",
+        "join_url": "https://meet.example.invalid/93f4867d-65cd-5236-bc55-7bd57df8ac24",
+        "organizer_email": "team14@example.com",
+        "attendee_count": 4,
+        "recording_status": "cancelled",
+        "recording_detail": "The notetaker was cancelled before the meeting started.",
+        "recording_id": null,
+        "has_transcript": false,
+        "has_video": false,
+        "summary": null,
+        "summary_status": null,
+        "redacted": true
+      },
+      "transcript_payload": {
+        "meeting_id": "93f4867d-65cd-5236-bc55-7bd57df8ac24",
+        "turns": [],
+        "unavailable_reason": "The notetaker was cancelled before the meeting started."
+      }
+    }
+  ]
+}

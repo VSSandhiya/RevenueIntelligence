@@ -1,0 +1,44 @@
+{
+  "source_type": "meeting",
+  "source_id": "cb5cecac-e68d-52b7-b10b-b0c748efc467",
+  "record_ref": "M01",
+  "source_revision": 1,
+  "output_kind": "partner_channel_plan",
+  "what_happened": "Harborpath is interested in a scalable referral arrangement; the meeting covers eligibility, commissions, onboarding requirements and a unique referral link.",
+  "why_it_matters": "The partner prefers self-serve referrals over manually writing introductions, and compliance requirements need to be clear before promotion.",
+  "what_evidence_does_not_establish": "It does not establish signed terms, approved partner status, or any referred business already in onboarding.",
+  "next_step": "Send the written terms, onboarding checklist and unique link discussed; keep customer pricing separate from partner compensation.",
+  "owner": "Team member A",
+  "review_required": false,
+  "evidence": [
+    {
+      "turn_number": 20,
+      "quote": "It cannot depend on me manually writing every email. This needs to scale when people discover the offer through us.",
+      "point": "Partner states the scale requirement."
+    },
+    {
+      "turn_number": 21,
+      "quote": "Then let us use the unique link.",
+      "point": "The meeting selects a scalable referral path."
+    },
+    {
+      "turn_number": 13,
+      "quote": "Another important point is evidence of US operations or intended operations",
+      "point": "Eligibility material must be documented before referral."
+    }
+  ],
+  "route_rules": [
+    {
+      "route": "Partner/channel",
+      "turn_number": 20,
+      "trigger": "This needs to scale when people discover the offer through us.",
+      "reason": "The discussion is about a repeatable referral channel and partner economics."
+    },
+    {
+      "route": "Prospect follow-up",
+      "turn_number": 25,
+      "trigger": "I will send the documents and the information discussed here.",
+      "reason": "The team member commits to sending partner materials."
+    }
+  ]
+}

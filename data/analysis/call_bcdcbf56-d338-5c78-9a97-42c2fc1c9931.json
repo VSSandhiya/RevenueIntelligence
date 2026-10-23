@@ -1,0 +1,26 @@
+{
+  "source_type": "call",
+  "source_id": "bcdcbf56-d338-5c78-9a97-42c2fc1c9931",
+  "record_ref": "C04",
+  "source_revision": 1,
+  "output_kind": "deal_next_steps",
+  "what_happened": "A voicemail followed up on an expense-platform evaluation and asked Ritesh to call back with a decision or questions.",
+  "why_it_matters": "The callback request is explicit, but the supplied record is a voicemail and contains no new buyer response.",
+  "what_evidence_does_not_establish": "It does not establish that the corrected email was read or that the buyer decided to proceed.",
+  "next_step": "Wait for the requested callback; do not treat the voicemail itself as a connection or decision.",
+  "owner": null,
+  "review_required": false,
+  "evidence": [
+    {
+      "quote": "Please call me back to let me know where things stand.",
+      "point": "The voicemail asks for a callback."
+    }
+  ],
+  "route_rules": [
+    {
+      "route": "Prospect follow-up",
+      "trigger": "Please call me back to let me know where things stand.",
+      "reason": "The voicemail explicitly requests a callback about the evaluation."
+    }
+  ]
+}
