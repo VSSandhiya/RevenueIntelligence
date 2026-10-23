@@ -2,6 +2,8 @@
 
 A lightweight app for reviewing sales calls and meetings. It summarizes transcript-backed risks, follow-ups, and route decisions, with source evidence available for review.
 
+**Live app:** <https://revenue-intelligence-inbox-7smc.onrender.com>
+
 ## Run locally
 
 Requires Python 3.11 or newer.
@@ -11,7 +13,7 @@ python -m pip install -r requirements.txt
 python -m uvicorn inbox.api:app --host 127.0.0.1 --port 8000
 ```
 
-Open <http://127.0.0.1:8000>. On startup, the app loads the supplied sample records.
+After starting the local server, open it in a browser. On startup, the app loads the supplied sample records.
 
 ## Use the app
 
