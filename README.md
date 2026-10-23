@@ -42,7 +42,7 @@ This is evidence-led triage, not a prediction model:
 - **No risk found in reviewed text:** current usable text has no customer-risk route. This does not prove the customer has no risk outside this extract.
 - **Not enough transcript:** no usable words were supplied. Silent, cancelled, not-scheduled and late-transcript reasons remain distinct in the status list.
 
-Every category shows its total and call-versus-meeting counts. The 21 Aug sample contains 30 calls and 14 meetings; those counts describe this selected extract, not a whole team's day. Alerts are in-app and can optionally use the browser's desktop notification permission while the app is open; the browser alert contains only a record ID and revision. An always-on service and persistent disk are required for continuous monitoring; this Render configuration uses the paid Starter plan. A sleeping/free host or a powered-off local computer cannot watch files continuously. No email or third-party notification service is configured.
+Every category shows its total and call-versus-meeting counts. The 21 Aug sample contains 30 calls and 14 meetings; those counts describe this selected extract, not a whole team's day. Alerts are in-app and can optionally use the browser's desktop notification permission while the app is open; the browser alert contains only a record ID and revision. An always-on service and persistent disk are required for continuous monitoring; a sleeping/free host or a powered-off local computer cannot watch files continuously. No email or third-party notification service is configured.
 
 No training dataset is needed for this product. The sample has only 18 unlabelled conversations, so training would be misleading; the app uses pre-generated, source-checked analyses and deterministic routing. If the rules are evaluated later, collect company-owned conversations with explicit consent, redact personal/contact details, and have reviewers label a separate evaluation set. Do not upload these customer records to public dataset sites or train a model on them.
 
@@ -61,9 +61,9 @@ Equivalent Python commands are `python -m inbox.cli demo`, `python -m inbox.cli 
 
 ## Deploy privately
 
-`Dockerfile` uses Python 3.11. `render.yaml` sets `REQUIRE_AUTH=true`, creates a persistent disk at `/app/state`, and leaves `APP_PASSWORD` unsynced so the deployer must enter it in the private Render dashboard. HTTP Basic authentication protects every API endpoint; the health endpoint remains available for platform checks. Keep the deployment private and share credentials only with reviewers. TLS is supplied by the hosting platform. No API keys are needed.
+`Dockerfile` uses Python 3.11. `render.yaml` configures a free Render web service, sets `REQUIRE_AUTH=true`, and leaves `APP_PASSWORD` unsynced so the deployer must enter it in the private Render dashboard. HTTP Basic authentication protects every API endpoint; the health endpoint remains available for platform checks. Keep the deployment private and share credentials only with reviewers. TLS is supplied by the hosting platform. No API keys are needed.
 
-The included dataset is de-identified but still must not be published as a public app or repository. A password-protected link is the intended deploy mode. SQLite and exports are local files; the Render disk persists the database, while generated export files can be rebuilt at any time.
+The included dataset is de-identified but still must not be published as a public app or repository. A password-protected link is the intended deploy mode. The free Render service has no persistent disk and may sleep when idle, so SQLite data and generated exports can be lost on restarts, redeploys, or sleep, and continuous file monitoring is not guaranteed. Use a paid service with a persistent disk for a continuously available deployment that retains app state.
 
 ## Import and replay
 
