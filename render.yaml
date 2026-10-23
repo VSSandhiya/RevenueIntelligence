@@ -5,9 +5,7 @@ services:
     plan: free
     healthCheckPath: /api/health
     envVars:
-      - key: APP_PASSWORD
-        sync: false
       - key: REQUIRE_AUTH
-        value: "true"
+        value: "false"
       - key: DB_PATH
         value: /app/state/app.db

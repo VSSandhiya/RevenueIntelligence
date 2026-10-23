@@ -59,11 +59,11 @@ The requested Make targets are available when `make` is installed:
 
 Equivalent Python commands are `python -m inbox.cli demo`, `python -m inbox.cli reset`, `python -m inbox.cli export`, `python -m inbox.replay` and `python -m pytest -q`.
 
-## Deploy privately
+## Deploy publicly
 
-`Dockerfile` uses Python 3.11. `render.yaml` configures a free Render web service, sets `REQUIRE_AUTH=true`, and leaves `APP_PASSWORD` unsynced so the deployer must enter it in the private Render dashboard. HTTP Basic authentication protects every API endpoint; the health endpoint remains available for platform checks. Keep the deployment private and share credentials only with reviewers. TLS is supplied by the hosting platform. No API keys are needed.
+`Dockerfile` uses Python 3.11. `render.yaml` configures a free Render web service with `REQUIRE_AUTH=false`, so anyone with the link can access the app without a password. Do not set `APP_PASSWORD` in Render; the app enables authentication if that variable is present. TLS is supplied by the hosting platform. No API keys are needed.
 
-The included dataset is de-identified but still must not be published as a public app or repository. A password-protected link is the intended deploy mode. The free Render service has no persistent disk and may sleep when idle, so SQLite data and generated exports can be lost on restarts, redeploys, or sleep, and continuous file monitoring is not guaranteed. Use a paid service with a persistent disk for a continuously available deployment that retains app state.
+This public deployment exposes the included conversation data and allows visitors to use the app's interactive features, including data import and route updates. The sample is de-identified, but anyone with the link can access it. The free Render service has no persistent disk and may sleep when idle, so SQLite data and generated exports can be lost on restarts, redeploys, or sleep, and continuous file monitoring is not guaranteed.
 
 ## Import and replay
 
